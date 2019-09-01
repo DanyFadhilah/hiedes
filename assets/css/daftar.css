@@ -1,0 +1,143 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Regular;
+}
+
+a {
+  display: inline-block;
+  color: #2680EB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("../font/WorkSans-Regular.ttf");
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapp {
+  margin-top: 20px;
+}
+
+.wrapp h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.wrapp p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.wrapp a {
+  text-decoration: none;
+}
+
+.masuk .lgkiri input {
+  width: 218px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  padding-left: 20px;
+  font-size: 22px;
+}
+
+.masuk .lgkanan input {
+  width: 218px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  padding-left: 20px;
+  font-size: 22px;
+  margin-left: 255px;
+  margin-top: -72px !important;
+  float: left;
+}
+
+.masuk .email input {
+  width: 473px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  font-size: 22px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.masuk .pswrd input {
+  width: 473px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  font-size: 22px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.masuk .Kpswrd input {
+  width: 473px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  font-size: 22px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.masuk button {
+  width: 168px;
+  height: 69px;
+  border-radius: 5px;
+  border: 1px solid #2680EB;
+  background: #2680EB;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.masuk .atau {
+  color: #525252;
+  margin-top: 20px;
+}
+
+.masuk .g {
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-top: -60px;
+  margin-left: 225px;
+}
+
+.masuk .f {
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-top: -60px;
+  margin-left: 195px;
+}
+
+img {
+  float: right;
+  width: 583px;
+  height: 657px;
+  margin-top: -649px;
+  position: relative;
+  margin-right: -184px;
+}
+
+.sha {
+  margin-right: -584px;
+}

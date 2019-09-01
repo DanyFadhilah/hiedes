@@ -1,0 +1,147 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Regular;
+}
+
+a {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("../font/WorkSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: work-bold;
+  src: url("../font/WorkSans-Bold.ttf");
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  position: fixed;
+  font-size: 15px semibold;
+  background: #2680EB;
+  background-size: cover;
+  width: 1500px;
+  margin-left: -90px;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  margin-left: 350px;
+}
+
+header li {
+  float: left;
+  padding-left: 35px;
+  margin-top: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  font-family: work-bold;
+  -webkit-text-decoration: underline #2680EB;
+  text-decoration: underline #2680EB;
+}
+
+header .bendera {
+  width: 22px;
+  margin-top: 21px;
+  margin-left: 35px;
+}
+
+header .panah {
+  width: 10px;
+  margin-top: -20px;
+  margin-right: 125px;
+  float: right;
+}
+
+header .masuk {
+  border-radius: 5px;
+  border: 1px solid white;
+  background: none;
+  width: 86px;
+  height: 35px;
+  color: white;
+  float: left;
+  margin-top: -47px;
+  margin-left: 754px;
+  cursor: pointer;
+}
+
+header .masuk:hover {
+  background-color: #2680EB;
+  border: 1px solid #2680EB;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer {
+  height: 200px;
+  color: white;
+  border-top-left-radius: 2px;
+  background: #2680EB;
+  background-size: cover;
+  width: 1500px;
+  height: 329px;
+  margin-left: -150px;
+}
+
+footer h1 {
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 16px;
+  padding-top: 16px;
+}
+
+footer .kiri1 {
+  float: left;
+  margin-top: 100px;
+  margin-left: 650px;
+  margin-right: 70px;
+}
+
+footer .kiri {
+  float: left;
+  margin-top: 100px;
+  margin-right: 70px;
+}
+
+footer .tengah {
+  float: left;
+  margin-top: 100px;
+  margin-right: 70px;
+}
+
+footer .kanan {
+  float: left;
+  margin-top: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
