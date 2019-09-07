@@ -1,0 +1,119 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #f8f8f8;
+}
+
+a {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.laman {
+  margin-top: 100px;
+  margin-left: 55px;
+}
+
+.laman h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.laman p {
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.laman img {
+  float: right;
+  margin-top: -780px;
+  margin-right: 60px;
+  width: 536px;
+  height: 426px;
+}
+
+.bg2 {
+  margin-top: -50px;
+  margin-left: 55px;
+  margin-bottom: 1100px;
+}
+
+.bg2 .enter {
+  width: 170px;
+  height: 3px;
+  background: #2680EB;
+  margin-left: 487px;
+  margin-top: -30px;
+}
+
+.bg2 h2 {
+  font-size: 38px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.bg2 h4 {
+  margin-top: 20px;
+}
+
+.bg2 p {
+  margin-top: -5px;
+  line-height: 23px;
+  color: #777777;
+  font-size: 15px;
+}
+
+.bg2 .one {
+  margin-top: 50px;
+  margin-right: 20px;
+  float: left;
+}
+
+.bg2 .two {
+  margin-top: 50px;
+  margin-right: 20px;
+  float: left;
+}
+
+.bg2 .three {
+  margin-top: 50px;
+  float: left;
+}
+
+.bg2 .four {
+  margin-top: 50px;
+  margin-right: 20px;
+  float: left;
+}
+
+.bg2 .five {
+  margin-top: 50px;
+  margin-right: 20px;
+  float: left;
+}
+
+.bg2 .six {
+  margin-top: 50px;
+  float: left;
+}
+
+.bg2 .seleng {
+  width: 136.3px;
+  height: 37.58px;
+  background: #2680EB;
+  border-radius: 5px;
+  border: 1px solid #2680EB;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}

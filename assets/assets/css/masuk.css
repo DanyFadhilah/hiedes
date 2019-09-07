@@ -1,0 +1,175 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Regular;
+}
+
+a {
+  display: inline-block;
+  color: #2680EB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("../font/WorkSans-Regular.ttf");
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapp {
+  margin-top: 60px;
+  margin-left: 180px;
+}
+
+.wrapp h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.wrapp p {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+.wrapp a {
+  text-decoration: none;
+}
+
+.masuk .masuk input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 13px;
+  color: #0009;
+  padding-left: 10px;
+  border: none;
+}
+
+.masuk .masuk input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 30px;
+  font-family: Comfortaa-Light;
+  color: #0009;
+}
+
+.masuk .email input {
+  width: 384px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  font-size: 22px;
+  padding-left: 20px;
+  margin-bottom: 35px;
+}
+
+.masuk .pswrd input {
+  width: 384px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  font-size: 22px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.masuk .lupa a {
+  color: #2680EB;
+  margin-left: 220px;
+  padding-bottom: -10px;
+}
+
+.masuk button {
+  width: 168px;
+  height: 69px;
+  border-radius: 5px;
+  border: 1px solid #2680EB;
+  background: #2680EB;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.masuk .atau {
+  color: #525252;
+  margin-top: 22px;
+}
+
+.masuk .g {
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-top: -75px;
+  margin-left: 225px;
+}
+
+.masuk .f {
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-top: -75px;
+  margin-left: 10px;
+}
+
+img {
+  float: right;
+  width: 583px;
+  height: 100vh;
+  margin-top: -612px;
+  position: relative;
+}
+
+.sha {
+  margin-right: -583px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapp {
+    margin-left: 90px;
+  }
+  img {
+    height: 100vh;
+    width: 450px;
+  }
+  .sha {
+    margin-right: -450px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  img {
+    display: none;
+  }
+  .wrapp {
+    margin-left: 40px;
+  }
+  .wrapp h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .wrapp p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+  .masuk .email input {
+    width: 80%;
+    font-size: 16px;
+  }
+  .masuk .pswrd input {
+    width: 80%;
+    font-size: 16px;
+  }
+  .masuk .lupa a {
+    margin-left: 145px;
+  }
+}
