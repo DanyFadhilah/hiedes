@@ -61,6 +61,18 @@ a {
   cursor: pointer;
 }
 
+.bg2 .basel123 {
+  width: 168px;
+  height: 53px;
+  background-color: #2680EB;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #2680EB;
+  margin-top: 100px;
+  margin-left: 110px;
+  cursor: pointer;
+}
+
 .bg3 {
   margin-bottom: 100px;
   margin-left: 55px;

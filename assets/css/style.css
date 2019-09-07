@@ -28,7 +28,6 @@ a {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 header {
@@ -37,8 +36,7 @@ header {
   font-size: 15px semibold;
   background: #2680EB;
   background-size: cover;
-  width: 1500px;
-  margin-left: -90px;
+  width: 100%;
 }
 
 header ul {
@@ -100,12 +98,9 @@ header .masuk:hover {
 footer {
   height: 200px;
   color: white;
-  border-top-left-radius: 2px;
   background: #2680EB;
-  background-size: cover;
-  width: 1500px;
+  width: 100%;
   height: 329px;
-  margin-left: -150px;
 }
 
 footer h1 {
@@ -120,7 +115,7 @@ footer p {
 footer .kiri1 {
   float: left;
   margin-top: 100px;
-  margin-left: 650px;
+  margin-left: 450px;
   margin-right: 70px;
 }
 

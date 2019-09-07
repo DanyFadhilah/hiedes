@@ -23,13 +23,13 @@ a {
 }
 
 .container {
-  max-width: 1000px;
-  max-height: 657px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .wrapp {
   margin-top: 60px;
+  margin-left: 180px;
 }
 
 .wrapp h2 {
@@ -124,11 +124,52 @@ a {
 img {
   float: right;
   width: 583px;
-  height: 657px;
+  height: 100vh;
   margin-top: -612px;
   position: relative;
 }
 
 .sha {
   margin-right: -583px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapp {
+    margin-left: 90px;
+  }
+  img {
+    height: 100vh;
+    width: 450px;
+  }
+  .sha {
+    margin-right: -450px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  img {
+    display: none;
+  }
+  .wrapp {
+    margin-left: 40px;
+  }
+  .wrapp h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .wrapp p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+  .masuk .email input {
+    width: 80%;
+    font-size: 16px;
+  }
+  .masuk .pswrd input {
+    width: 80%;
+    font-size: 16px;
+  }
+  .masuk .lupa a {
+    margin-left: 145px;
+  }
 }
