@@ -37,6 +37,7 @@ header {
   background: #2680EB;
   background-size: cover;
   width: 100%;
+  z-index: +100000;
 }
 
 header #nav-icon1 {
@@ -83,17 +84,17 @@ header #nav-icon1 span:nth-child(3) {
 }
 
 header #nav-icon1.open span:nth-child(1) {
-  width: 20px;
+  display: none;
   background: #4592a5;
 }
 
 header #nav-icon1.open span:nth-child(2) {
-  width: 15px;
-  background: #4592a5;
+  width: 30px;
+  background: #fff;
 }
 
 header #nav-icon1.open span:nth-child(3) {
-  width: 25px;
+  display: none;
   background: #4592a5;
 }
 
@@ -144,9 +145,13 @@ header a {
 }
 
 header a:hover {
-  font-family: work-bold;
-  -webkit-text-decoration: underline #ffffff;
-  text-decoration: underline #ffffff;
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
+}
+
+header .none:hover {
+  border-bottom: none;
+  margin-bottom: -4px;
 }
 
 header .bendera {
@@ -244,16 +249,16 @@ footer a {
   }
   footer .kiri1 {
     float: left;
-    margin-top: -100px;
+    margin-top: 100px;
     margin-left: 270px;
   }
   footer .kiri {
     float: left;
-    margin-top: -100px;
+    margin-top: 100px;
   }
   footer .tengah {
     float: left;
-    margin-top: -100px;
+    margin-top: 100px;
   }
   footer .kanan {
     margin-top: -100px;
@@ -391,6 +396,9 @@ footer a {
 }
 
 @media screen and (max-width: 360px) {
+  header a {
+    color: blue;
+  }
   header .container {
     max-width: 300px;
     margin: 0 auto;
@@ -402,5 +410,13 @@ footer a {
     margin-right: -10px;
     margin-top: -5px;
     height: 40px;
+  }
+  header .login {
+    float: left;
+    margin-left: -125px;
+  }
+  header .teng {
+    margin-top: -20px;
+    margin-left: 50px;
   }
 }

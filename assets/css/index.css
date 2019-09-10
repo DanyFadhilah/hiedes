@@ -70,16 +70,56 @@ a {
   margin-top: 50px;
   margin-right: 20px;
   float: left;
+  width: 30.5%;
+}
+
+.bg3 .one img {
+  width: 349.22px;
+}
+
+.bg3 .one:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.bg3 .two:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.bg3 .three:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .bg3 .two {
   margin-top: 50px;
   margin-right: 20px;
   float: left;
+  width: 30.5%;
+}
+
+.bg3 .two img {
+  width: 349.22px;
 }
 
 .bg3 .three {
+  float: left;
   margin-top: 50px;
+  width: 30.5%;
+}
+
+.bg3 .three img {
+  width: 349.22px;
 }
 
 .bg3 h3 {
@@ -244,6 +284,10 @@ a {
   cursor: pointer;
 }
 
+.bg4 .ss {
+  display: none;
+}
+
 .bg4 .txt1 {
   font-size: 16px;
   margin-left: 100px;
@@ -261,8 +305,8 @@ a {
   background: none;
   border-radius: 5px;
   border: 1px solid #000000;
-  margin-top: 245px !important;
-  margin-left: -575px;
+  margin-top: 35px !important;
+  margin-left: 490px;
   cursor: pointer;
   float: left;
 }
@@ -292,15 +336,39 @@ a {
   float: left;
 }
 
+.bg5 .k1:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg5 .k2 {
   float: left;
   margin-right: 20px;
   margin-top: 50px;
 }
 
+.bg5 .k2:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg5 .k3 {
   float: left;
   margin-top: 50px;
+}
+
+.bg5 .k3:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .bg5 .k4 {
@@ -309,15 +377,39 @@ a {
   float: left;
 }
 
+.bg5 .k4:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg5 .k5 {
   float: left;
   margin-right: 20px;
   margin-top: 20px;
 }
 
+.bg5 .k5:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg5 .k6 {
   float: left;
   margin-top: 20px;
+}
+
+.bg5 .k6:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .bg5 .seleng4 {
@@ -363,8 +455,9 @@ a {
 .bg6 .ard {
   color: #777777;
   font-size: 16px;
-  margin-left: 5px;
+  margin-left: 25px;
   text-align: center;
+  width: 85%;
 }
 
 .bg6 .ar {
@@ -382,6 +475,19 @@ a {
   background-color: white;
   float: left;
   margin-right: 30px;
+  -webkit-box-shadow: 0 0 1px #2680BE;
+  box-shadow: 0 0 1px #2680BE;
+}
+
+.bg6 .left:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: 0 0 2px #2680BE;
+  box-shadow: 0 0 2px #2680BE;
+  cursor: pointer;
 }
 
 .bg6 .center {
@@ -392,15 +498,40 @@ a {
   background-color: white;
   float: left;
   margin-right: 30px;
+  -webkit-box-shadow: 0 0 1px #2680BE;
+  box-shadow: 0 0 1px #2680BE;
+}
+
+.bg6 .center:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: 0 0 2px #2680BE;
+  box-shadow: 0 0 2px #2680BE;
+  cursor: pointer;
 }
 
 .bg6 .right {
-  border: 1px solid none;
   width: 349px;
   height: 290px;
   margin-top: 100px;
   background-color: white;
   float: left;
+  -webkit-box-shadow: 0 0 1px #2680BE;
+  box-shadow: 0 0 1px #2680BE;
+}
+
+.bg6 .right:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: 0 0 2px #2680BE;
+  box-shadow: 0 0 2px #2680BE;
+  cursor: pointer;
 }
 
 .bg6 .selengka {
@@ -421,4 +552,174 @@ a {
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+  .bg3 .one {
+    width: 40%;
+    margin-left: 50px;
+  }
+  .bg3 .one img {
+    width: 387.59px;
+  }
+  .bg3 .two {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .bg3 .two img {
+    width: 387.59px;
+  }
+  .bg3 .three {
+    display: none;
+  }
+  .bg3 .seleng1 {
+    margin-left: 380px;
+  }
+  .bg4 .vid {
+    margin-left: 60px;
+    width: 368px;
+    height: 504px;
+  }
+  .bg4 .lain {
+    float: left;
+    margin-top: 100px;
+  }
+  .bg4 .lain .txt {
+    margin-left: 0px;
+  }
+  .bg4 .lain .txt1 {
+    margin-left: 105px;
+  }
+  .bg4 .lain .txt2 {
+    margin-left: 105px;
+  }
+  .bg4 .lain .left1 {
+    margin-left: 3px;
+  }
+  .bg4 .lain .os {
+    margin-left: -9px;
+  }
+  .bg4 .lain .ts {
+    margin-left: 80px;
+  }
+  .bg4 .lain .fs {
+    margin-left: 50px;
+  }
+  .bg4 .lain .ths {
+    float: left;
+    margin-left: 94px;
+  }
+  .bg4 .lain .fis {
+    float: left;
+    margin-top: 20px;
+    margin-left: 94px;
+  }
+  .bg4 .lain .ss {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    margin-left: 45px;
+  }
+  .bg4 .lain .seleng3 {
+    margin-left: 380px;
+    margin-bottom: 100px;
+    margin-top: 50px !important;
+  }
+  .bg5 {
+    margin-left: 75px;
+  }
+  .bg5 .k1 {
+    width: 50%;
+    margin-left: 60px;
+    margin-right: -100px;
+  }
+  .bg5 .k2 {
+    width: 50%;
+  }
+  .bg5 .k3 {
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 60px;
+    margin-right: -100px;
+  }
+  .bg5 .k4 {
+    margin-top: 25px;
+    width: 50%;
+  }
+  .bg5 .k5 {
+    display: none;
+  }
+  .bg5 .k6 {
+    display: none;
+  }
+  .bg5 .seleng4 {
+    margin-left: -577px;
+    margin-top: 300px;
+  }
+  .bg6 {
+    margin-left: 125px;
+  }
+  .bg6 .ard {
+    margin-left: 30px;
+  }
+  .bg6 .ar {
+    margin-left: 110px;
+  }
+  .bg6 .right {
+    display: none;
+  }
+  .bg6 .left {
+    width: 40%;
+    height: 300px;
+  }
+  .bg6 .center {
+    width: 40%;
+    height: 300px;
+  }
+  .bg6 .bulat {
+    margin-left: 150px;
+  }
+  .bg6 .selengka {
+    margin-left: -475px;
+    margin-bottom: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+  .bg2 p {
+    text-align: center;
+    margin-left: 20px;
+  }
+  .bg2 .basel {
+    margin-left: 300px;
+  }
+  .bg3 .one {
+    margin-left: 0px;
+    width: 310px;
+    text-align: justify;
+  }
+  .bg3 .one img {
+    width: 310px;
+  }
+  .bg3 .two {
+    margin-left: 10px;
+    width: 310px;
+    text-align: justify;
+  }
+  .bg3 .two img {
+    width: 310px;
+  }
+  .bg3 .seleng1 {
+    margin-left: 270px;
+  }
+  .bg4 .vid {
+    width: 300px;
+    margin-left: -15px;
+  }
 }
