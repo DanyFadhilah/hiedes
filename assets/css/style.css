@@ -281,7 +281,7 @@ footer a {
     height: 40px;
   }
   header .menu-hide {
-    margin-top: -50px;
+    margin-top: 50px;
     margin-left: 40px;
     display: block;
     width: 80%;
