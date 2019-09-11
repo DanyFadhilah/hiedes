@@ -28,17 +28,19 @@ a {
 }
 
 .wrapp {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .wrapp h2 {
-  font-size: 45px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin-bottom: 14px;
+  margin-left: 0px;
 }
 
 .wrapp p {
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 15px;
+  margin-bottom: 35px;
+  margin-left: 0px;
 }
 
 .wrapp a {
@@ -46,64 +48,144 @@ a {
 }
 
 .masuk .lgkiri input {
-  width: 218px;
-  height: 70px;
+  width: 200px;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #D2D2D2;
+  font-size: 15px;
   padding-left: 20px;
-  font-size: 22px;
+}
+
+.masuk .lgkiri input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 15px;
+  color: #0009;
+  padding-left: -10px;
+  border: none;
+}
+
+.masuk .lgkiri input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 20px;
+  color: #0009;
 }
 
 .masuk .lgkanan input {
-  width: 218px;
-  height: 70px;
+  width: 200px;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #D2D2D2;
   padding-left: 20px;
-  font-size: 22px;
-  margin-left: 255px;
-  margin-top: -72px !important;
+  font-size: 15px;
+  margin-left: 235px;
+  margin-top: -57px !important;
   float: left;
 }
 
+.masuk .lgkanan input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 15px;
+  color: #0009;
+  padding-left: -10px;
+  border: none;
+}
+
+.masuk .lgkanan input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 20px;
+  color: #0009;
+}
+
 .masuk .email input {
-  width: 473px;
-  height: 70px;
+  width: 43.5%;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #D2D2D2;
-  font-size: 22px;
+  font-size: 15px;
   padding-left: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
+.masuk .email input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 15px;
+  color: #0009;
+  padding-left: -10px;
+  border: none;
+}
+
+.masuk .email input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 20px;
+  color: #0009;
+}
+
 .masuk .pswrd input {
-  width: 473px;
-  height: 70px;
+  width: 43.5%;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #D2D2D2;
-  font-size: 22px;
+  font-size: 15px;
   padding-left: 20px;
   margin-bottom: 20px;
+}
+
+.masuk .pswrd input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 15px;
+  color: #0009;
+  padding-left: -10px;
+  border: none;
+}
+
+.masuk .pswrd input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 20px;
+  color: #0009;
 }
 
 .masuk .Kpswrd input {
-  width: 473px;
-  height: 70px;
+  width: 43.5%;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #D2D2D2;
-  font-size: 22px;
+  font-size: 15px;
   padding-left: 20px;
   margin-bottom: 20px;
 }
 
+.masuk .Kpswrd input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 15px;
+  color: #0009;
+  padding-left: -10px;
+  border: none;
+}
+
+.masuk .Kpswrd input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 20px;
+  color: #0009;
+}
+
 .masuk button {
-  width: 168px;
-  height: 69px;
+  width: 155px;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #2680EB;
   background: #2680EB;
-  font-size: 22px;
+  font-size: 15px;
   cursor: pointer;
   color: white;
 }
@@ -114,18 +196,18 @@ a {
 }
 
 .masuk .g {
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   float: left;
-  margin-top: -60px;
-  margin-left: 225px;
+  margin-top: -70px;
+  margin-left: 160px;
 }
 
 .masuk .f {
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   float: left;
-  margin-top: -60px;
+  margin-top: -70px;
   margin-left: 195px;
 }
 
@@ -133,9 +215,9 @@ img {
   float: right;
   width: 583px;
   height: 657px;
-  margin-top: -649px;
+  margin-top: -627px;
   position: relative;
-  margin-right: -184px;
+  margin-right: -194px;
 }
 
 .sha {

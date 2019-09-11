@@ -28,18 +28,20 @@ a {
 }
 
 .wrapp {
-  margin-top: 60px;
+  margin-top: 120px;
   margin-left: 180px;
 }
 
 .wrapp h2 {
-  font-size: 45px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin-bottom: 14px;
+  margin-left: 0px;
 }
 
 .wrapp p {
-  font-size: 22px;
+  font-size: 15px;
   margin-bottom: 35px;
+  margin-left: 0px;
 }
 
 .wrapp a {
@@ -64,40 +66,78 @@ a {
 }
 
 .masuk .email input {
-  width: 384px;
-  height: 70px;
+  width: 35%;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #D2D2D2;
-  font-size: 22px;
-  padding-left: 20px;
   margin-bottom: 35px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.masuk .email input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 15px;
+  color: #0009;
+  padding-left: -10px;
+  border: none;
+}
+
+.masuk .email input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 20px;
+  color: #0009;
 }
 
 .masuk .pswrd input {
-  width: 384px;
-  height: 70px;
+  width: 35%;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #D2D2D2;
-  font-size: 22px;
-  padding-left: 20px;
   margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.masuk .pswrd input::-webkit-input-placeholder {
+  position: relative;
+  font-size: 15px;
+  color: #0009;
+  padding-left: -10px;
+  border: none;
+}
+
+.masuk .pswrd input:hover::-webkit-input-placeholder {
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-left: 35px;
+  color: #0009;
 }
 
 .masuk .lupa a {
   color: #2680EB;
-  margin-left: 220px;
-  padding-bottom: -10px;
+  margin-left: 291px;
 }
 
 .masuk button {
-  width: 168px;
-  height: 69px;
+  margin-top: -20px !important;
+  width: 155px;
+  height: 55px;
   border-radius: 5px;
   border: 1px solid #2680EB;
   background: #2680EB;
-  font-size: 22px;
+  font-size: 15px;
   cursor: pointer;
   color: white;
+  float: left;
+}
+
+.masuk button:hover {
+  background: white;
+  color: #2680EB;
 }
 
 .masuk .atau {
@@ -106,18 +146,18 @@ a {
 }
 
 .masuk .g {
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   float: left;
-  margin-top: -75px;
-  margin-left: 225px;
+  margin-top: -71px;
+  margin-left: 160px;
 }
 
 .masuk .f {
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   float: left;
-  margin-top: -75px;
+  margin-top: -71px;
   margin-left: 10px;
 }
 
@@ -125,7 +165,7 @@ img {
   float: right;
   width: 583px;
   height: 100vh;
-  margin-top: -612px;
+  margin-top: -584px;
   position: relative;
 }
 
@@ -143,6 +183,12 @@ img {
   }
   .sha {
     margin-right: -450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    display: none;
   }
 }
 
@@ -171,5 +217,19 @@ img {
   }
   .masuk .lupa a {
     margin-left: 145px;
+  }
+  .masuk .g {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-left: 165px;
+    margin-top: -70px;
+  }
+  .masuk .f {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: -70px;
   }
 }
