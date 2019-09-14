@@ -830,17 +830,54 @@ a {
   .bg3 .one .seleng {
     margin-left: 65px;
   }
-  .bg3 .two {
-    display: none;
-  }
   .bg3 .two img {
     margin-left: -10px;
     width: 254.19px;
+  }
+  .bg3 .two p {
+    width: 82%;
+    margin-left: -10px;
+  }
+  .bg3 .two h4 {
+    margin-left: -10px;
+  }
+  .bg3 .two .seleng {
+    margin-left: 55px;
   }
   .bg3 .res {
     margin-left: -17px;
   }
   .bg3 .seleng1 {
     margin-left: 65px;
+  }
+  .bg4 h3 {
+    margin-left: -20px;
+  }
+  .bg4 .res {
+    margin-left: -17px;
+  }
+  .bg4 .vid {
+    float: left;
+    margin-left: -24px;
+    height: 400px;
+  }
+  .bg4 .dua {
+    display: none;
+  }
+  .bg4 .ov {
+    margin-left: -24px;
+    margin-top: 20px;
+    float: left;
+  }
+  .bg4 .ov img {
+    width: 120px;
+  }
+  .bg4 .ov .h5 {
+    width: 50%;
+    margin-left: 135px;
+    margin-top: -118px;
+  }
+  .bg4 .ov p {
+    margin-left: 135px;
   }
 }
