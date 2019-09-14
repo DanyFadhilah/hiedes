@@ -35,16 +35,28 @@ a {
 
 .laman img {
   float: right;
-  margin-top: -780px;
-  margin-right: 50px;
+  margin-top: -792px;
+  margin-right: 60px;
   width: 536px;
   height: 426px;
+}
+
+.laman .la1 {
+  line-height: 23px;
+  text-align: justify;
+  width: 45%;
+}
+
+.laman .la2 {
+  line-height: 23px;
+  text-align: justify;
+  width: 95%;
 }
 
 .bg2 {
   margin-top: -50px;
   margin-left: 55px;
-  margin-bottom: 1100px;
+  margin-bottom: 1200px;
 }
 
 .bg2 .enter {

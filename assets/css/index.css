@@ -4,7 +4,7 @@ html, body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 a {
@@ -43,6 +43,8 @@ a {
 }
 
 .bg2 p {
+  width: 46%;
+  text-align: justify;
   color: white;
   font-size: 18px;
   margin-left: 110px;
@@ -688,16 +690,27 @@ a {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .bg2 p {
+    width: 53%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     max-width: 700px;
   }
+  .bg2 h4 {
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: -500px;
+  }
   .bg2 p {
-    text-align: center;
-    margin-left: 20px;
+    width: 53%;
+    margin-left: 60px;
   }
   .bg2 .basel {
-    margin-left: 300px;
+    margin-left: 60px;
   }
   .bg3 .one {
     margin-left: 0px;
@@ -721,5 +734,113 @@ a {
   .bg4 .vid {
     width: 300px;
     margin-left: -15px;
+  }
+  .bg5 .k1 {
+    width: 100px;
+    margin-left: -5px;
+  }
+  .bg5 .k1 img {
+    width: 310px;
+  }
+  .bg5 .k2 {
+    width: 100px;
+    margin-left: 320px;
+  }
+  .bg5 .k2 img {
+    width: 310px;
+  }
+  .bg5 .k3 {
+    margin-top: 265px;
+    width: 100px;
+    margin-left: -445px;
+  }
+  .bg5 .k3 img {
+    width: 310px;
+    height: 199px;
+  }
+  .bg5 .k4 {
+    width: 100px;
+    margin-top: 11px;
+    margin-left: 320px;
+  }
+  .bg5 .k4 img {
+    width: 310px;
+  }
+  .bg5 .seleng4 {
+    margin-left: -196px;
+  }
+  .bg6 h3 {
+    margin-left: -55px;
+  }
+  .bg6 .kk {
+    margin-left: -53px;
+  }
+  .bg6 .bulat {
+    margin-left: 105px;
+  }
+  .bg6 .left {
+    width: 46%;
+    margin-left: -50px;
+  }
+  .bg6 .center {
+    width: 46%;
+  }
+  .bg6 .ard {
+    margin-top: -10px;
+    margin-left: 25px;
+  }
+  .bg6 .ar {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 69px;
+  }
+  .bg6 .selengka {
+    margin-left: -408px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bg2 .container {
+    max-width: 300px;
+  }
+  .bg2 h4 {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .bg2 p {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    line-height: 23px;
+  }
+  .bg2 .basel {
+    margin-left: 66px;
+  }
+  .bg3 h3 {
+    font-size: 25px;
+    margin-left: -20px;
+  }
+  .bg3 .one img {
+    margin-left: 0px;
+    width: 82%;
+  }
+  .bg3 .one p {
+    width: 82%;
+  }
+  .bg3 .one .seleng {
+    margin-left: 65px;
+  }
+  .bg3 .two {
+    display: none;
+  }
+  .bg3 .two img {
+    margin-left: -10px;
+    width: 254.19px;
+  }
+  .bg3 .res {
+    margin-left: -17px;
+  }
+  .bg3 .seleng1 {
+    margin-left: 65px;
   }
 }

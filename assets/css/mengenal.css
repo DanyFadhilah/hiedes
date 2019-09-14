@@ -46,6 +46,18 @@ a {
   line-height: 23px;
 }
 
+.berita .la1 {
+  width: 95.5%;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.berita .la2 {
+  width: 60%;
+  text-align: justify;
+  line-height: 23px;
+}
+
 .berita .love {
   width: 28px;
   height: 28px;

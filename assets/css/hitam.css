@@ -160,9 +160,8 @@ header a {
 }
 
 header a:hover {
-  font-family: work-bold;
-  -webkit-text-decoration: underline #2680EB;
-  text-decoration: underline #2680EB;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #2680EB;
 }
 
 header .bendera {
@@ -189,6 +188,11 @@ header .masuk {
   margin-top: -47px;
   margin-left: 754px;
   cursor: pointer;
+}
+
+header .none:hover {
+  border-bottom: none;
+  margin-bottom: -4px;
 }
 
 header .masuk:hover {
