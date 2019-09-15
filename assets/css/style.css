@@ -447,4 +447,26 @@ footer a {
   header .kir {
     margin-top: -6px !important;
   }
+  footer {
+    height: 115vh;
+  }
+  footer .kiri1 {
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+  footer .kiri {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  footer .tengah {
+    margin-left: 40px;
+  }
+  footer .tengah .a2 {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  footer .kanan {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
 }

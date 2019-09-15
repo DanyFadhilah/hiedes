@@ -79,6 +79,10 @@ a {
   width: 349.22px;
 }
 
+.bg3 .one p {
+  text-align: justify;
+}
+
 .bg3 .one:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -114,6 +118,10 @@ a {
   width: 349.22px;
 }
 
+.bg3 .two p {
+  text-align: justify;
+}
+
 .bg3 .three {
   float: left;
   margin-top: 50px;
@@ -122,6 +130,10 @@ a {
 
 .bg3 .three img {
   width: 349.22px;
+}
+
+.bg3 .three p {
+  text-align: justify;
 }
 
 .bg3 h3 {
@@ -210,14 +222,18 @@ a {
   margin-left: 15px;
 }
 
+.bg4 .ov .h5 {
+  width: 30%;
+}
+
 .bg4 .tv {
-  margin-top: 225px;
-  margin-left: -376px;
+  margin-top: 18px;
+  margin-left: 15px;
   float: left;
 }
 
 .bg4 .thv {
-  margin-top: 400px;
+  margin-top: 193px;
   margin-left: -379px;
   float: left;
 }
@@ -247,42 +263,58 @@ a {
   height: 2px;
   background: #2680EB;
   margin-left: 30px;
-  margin-top: -2px;
+  margin-top: -202px;
   margin-bottom: 30px;
 }
 
 .bg4 .os {
   float: left;
   margin-left: 35px;
-  margin-top: 20px;
+  margin-top: -155px;
   cursor: pointer;
 }
 
 .bg4 .ts {
   float: left;
-  margin-top: 20px;
+  margin-top: -65px;
   margin-left: 35px;
   cursor: pointer;
 }
 
 .bg4 .ths {
   float: left;
-  margin-top: 20px;
-  margin-left: 35px;
+  margin-top: -320px;
+  margin-left: 726px;
   cursor: pointer;
+}
+
+.bg4 .ths h5 {
+  width: 45%;
+}
+
+.bg4 .ths p {
+  margin-top: 2px;
 }
 
 .bg4 .fs {
   float: left;
-  margin-top: 20px;
-  margin-left: 35px;
+  margin-top: -230px;
+  margin-left: 726px;
   cursor: pointer;
+}
+
+.bg4 .fs h5 {
+  width: 45%;
+}
+
+.bg4 .fs p {
+  margin-top: 3px;
 }
 
 .bg4 .fis {
   float: left;
-  margin-top: -135px;
-  margin-left: 728px;
+  margin-top: -130px;
+  margin-left: 726px;
   cursor: pointer;
 }
 
@@ -560,6 +592,15 @@ a {
   .container {
     max-width: 900px;
   }
+  .bg2 p {
+    width: 53%;
+  }
+  .bg3 h3 {
+    margin-left: 0px;
+  }
+  .bg3 .res {
+    margin-left: 3px;
+  }
   .bg3 .one {
     width: 40%;
     margin-left: 50px;
@@ -580,6 +621,27 @@ a {
   .bg3 .seleng1 {
     margin-left: 380px;
   }
+  .bg4 h3 {
+    margin-left: 0px;
+  }
+  .bg4 .res {
+    margin-left: 3px;
+  }
+  .bg4 .ov {
+    margin-left: 450px;
+    margin-top: -504px;
+  }
+  .bg4 .ov .h5 {
+    width: 45%;
+  }
+  .bg4 .tv {
+    margin-left: 450px;
+    margin-top: -330px;
+  }
+  .bg4 .thv {
+    margin-left: 450px;
+    margin-top: -154px;
+  }
   .bg4 .vid {
     margin-left: 60px;
     width: 368px;
@@ -588,6 +650,10 @@ a {
   .bg4 .lain {
     float: left;
     margin-top: 100px;
+  }
+  .bg4 .lain .left1 {
+    margin-top: 0px;
+    margin-left: 3px;
   }
   .bg4 .lain .txt {
     margin-left: 0px;
@@ -603,26 +669,30 @@ a {
   }
   .bg4 .lain .os {
     margin-left: -9px;
+    margin-top: 40px;
   }
   .bg4 .lain .ts {
     margin-left: 80px;
+    margin-top: 40px;
   }
   .bg4 .lain .fs {
-    margin-left: 50px;
+    margin-left: 469px;
+    margin-top: -63px;
   }
   .bg4 .lain .ths {
     float: left;
     margin-left: 94px;
+    margin-top: 20px;
   }
   .bg4 .lain .fis {
     float: left;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 94px;
   }
   .bg4 .lain .ss {
     display: inline;
     float: left;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 45px;
   }
   .bg4 .lain .seleng3 {
@@ -632,6 +702,12 @@ a {
   }
   .bg5 {
     margin-left: 75px;
+  }
+  .bg5 h3 {
+    margin-left: -20px;
+  }
+  .bg5 .res {
+    margin-left: -17px;
   }
   .bg5 .k1 {
     width: 50%;
@@ -664,6 +740,12 @@ a {
   .bg6 {
     margin-left: 125px;
   }
+  .bg6 h3 {
+    margin-left: -70px;
+  }
+  .bg6 .kk {
+    margin-left: -67px;
+  }
   .bg6 .ard {
     margin-left: 30px;
   }
@@ -687,12 +769,6 @@ a {
   .bg6 .selengka {
     margin-left: -475px;
     margin-bottom: 100px !important;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .bg2 p {
-    width: 53%;
   }
 }
 
@@ -734,6 +810,36 @@ a {
   .bg4 .vid {
     width: 300px;
     margin-left: -15px;
+  }
+  .bg4 .ov {
+    margin-left: 300px;
+  }
+  .bg4 .tv {
+    margin-left: 300px;
+  }
+  .bg4 .thv {
+    margin-left: 300px;
+  }
+  .bg4 .lain .os {
+    margin-left: -95px;
+  }
+  .bg4 .lain .ts {
+    margin-left: 60px;
+  }
+  .bg4 .lain .ths {
+    margin-left: 8px;
+  }
+  .bg4 .lain .fs {
+    margin-left: 362px;
+  }
+  .bg4 .lain .fis {
+    display: none;
+  }
+  .bg4 .lain .ss {
+    display: none;
+  }
+  .bg4 .lain .seleng3 {
+    margin-left: 280px;
   }
   .bg5 .k1 {
     width: 100px;
@@ -864,6 +970,12 @@ a {
   .bg4 .dua {
     display: none;
   }
+  .bg4 p {
+    margin-left: 135px;
+  }
+  .bg4 .link {
+    margin-left: 135px;
+  }
   .bg4 .ov {
     margin-left: -24px;
     margin-top: 20px;
@@ -877,7 +989,94 @@ a {
     margin-left: 135px;
     margin-top: -118px;
   }
-  .bg4 .ov p {
+  .bg4 .tv {
+    display: none;
+  }
+  .bg4 .thv {
+    margin-left: -24px;
+    margin-top: 20px;
+  }
+  .bg4 .thv img {
+    width: 120px;
+  }
+  .bg4 .thv .h5 {
+    width: 55%;
     margin-left: 135px;
+    margin-top: -118px;
+  }
+  .bg4 .lain {
+    margin-left: -20px;
+  }
+  .bg4 .lain .left1 {
+    margin-top: 5px;
+    margin-left: 2px;
+  }
+  .bg4 .lain .os {
+    margin-left: -101px;
+  }
+  .bg4 .lain .ts {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .bg4 .lain .ths {
+    margin-left: 0px;
+  }
+  .bg4 .lain .ths h5 {
+    width: 50%;
+    margin-top: -82px;
+  }
+  .bg4 .lain .fs {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  .bg4 .lain .fs h5 {
+    width: 55%;
+  }
+  .bg4 .lain .fs p {
+    margin-top: 3px;
+  }
+  .bg4 .lain .seleng3 {
+    margin-left: 85px;
+  }
+  .bg5 {
+    margin-left: 58px;
+  }
+  .bg5 .k1 img {
+    width: 273%;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+  .bg5 .k2 img {
+    width: 273%;
+    margin-left: -335px;
+    margin-top: 180px;
+  }
+  .bg5 .k3 {
+    display: none;
+  }
+  .bg5 .k4 {
+    display: none;
+  }
+  .bg5 .seleng4 {
+    margin-left: 60px;
+    margin-top: 30px !important;
+  }
+  .bg6 {
+    margin-left: 90px;
+    margin-top: -150px !important;
+    margin-bottom: 1000px;
+  }
+  .bg6 .left {
+    width: 105%;
+  }
+  .bg6 .center {
+    float: left;
+    margin-left: -50px;
+    margin-top: 60px;
+    width: 105%;
+  }
+  .bg6 .selengka {
+    margin-left: 30px;
+    margin-top: 30px;
   }
 }
