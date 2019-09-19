@@ -56,6 +56,7 @@ a {
 .bg2 {
   margin-top: -50px;
   margin-left: 55px;
+  margin-bottom: 1100px;
 }
 
 .bg2 .enter {
@@ -96,6 +97,14 @@ a {
   width: 30%;
 }
 
+.bg2 .one:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg2 .two {
   margin-top: 50px;
   margin-right: 20px;
@@ -103,10 +112,26 @@ a {
   width: 30%;
 }
 
+.bg2 .two:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg2 .three {
   margin-top: 50px;
   float: left;
   width: 30%;
+}
+
+.bg2 .three:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .bg2 .four {
@@ -116,6 +141,14 @@ a {
   width: 30%;
 }
 
+.bg2 .four:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg2 .five {
   margin-top: 50px;
   margin-right: 20px;
@@ -123,10 +156,26 @@ a {
   width: 30%;
 }
 
+.bg2 .five:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .bg2 .six {
   margin-top: 50px;
   float: left;
   width: 30%;
+}
+
+.bg2 .six:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .bg2 .seleng {

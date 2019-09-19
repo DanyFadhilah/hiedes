@@ -190,6 +190,25 @@ img {
   img {
     display: none;
   }
+  .wrapp {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .masuk .email input {
+    width: 76%;
+  }
+  .masuk .pswrd input {
+    width: 76%;
+  }
+  .masuk .lupa {
+    margin-left: 75px;
+  }
+  .masuk .f {
+    display: inline;
+  }
+  .masuk .g {
+    display: inline;
+  }
 }
 
 @media screen and (max-width: 360px) {

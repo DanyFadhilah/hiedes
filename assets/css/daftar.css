@@ -28,7 +28,7 @@ a {
 }
 
 .wrapp {
-  margin-top: 70px;
+  margin-top: 67px;
 }
 
 .wrapp h2 {
@@ -214,12 +214,84 @@ a {
 img {
   float: right;
   width: 583px;
-  height: 657px;
-  margin-top: -627px;
+  height: 100vh;
+  margin-top: -624px;
   position: relative;
   margin-right: -194px;
 }
 
 .sha {
   margin-right: -584px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapp {
+    margin-left: 90px;
+  }
+  img {
+    height: 100vh;
+    width: 450px;
+    margin-right: -50px;
+  }
+  .sha {
+    margin-right: -450px;
+  }
+  .masuk .email input {
+    width: 46.5%;
+  }
+  .masuk .pswrd input {
+    width: 46.5%;
+  }
+  .masuk .Kpswrd input {
+    width: 46.5%;
+  }
+  .masuk .f {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    display: none;
+  }
+  .wrapp {
+    margin-left: 150px;
+  }
+  .masuk .email input {
+    width: 70.5%;
+  }
+  .masuk .pswrd input {
+    width: 70.5%;
+  }
+  .masuk .Kpswrd input {
+    width: 70.5%;
+  }
+  .masuk .f {
+    display: inline;
+  }
+  .masuk .g {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .wrapp {
+    margin-left: 20px;
+  }
+  .masuk .lgkiri input {
+    width: 40%;
+  }
+  .masuk .lgkanan input {
+    width: 40%;
+    margin-left: 163px;
+  }
+  .masuk .email input {
+    width: 88%;
+  }
+  .masuk .pswrd input {
+    width: 88%;
+  }
+  .masuk .Kpswrd input {
+    width: 88%;
+  }
 }
