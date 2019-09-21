@@ -4,3 +4,7 @@ $(document).ready(function(){
 		$('.menu-hide').toggleClass('menu-hide-active');
 	});
 });
+
+$('.lovetoggle').click(function(){
+	$(this).toggleClass('actived');
+})

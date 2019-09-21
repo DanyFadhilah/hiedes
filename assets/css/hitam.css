@@ -26,6 +26,11 @@ a {
   src: url("../font/WorkSans-Bold.ttf");
 }
 
+.active {
+  padding-bottom: 4px;
+  border-bottom: 2px solid blue;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;

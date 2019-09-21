@@ -26,6 +26,11 @@ a {
   src: url("../font/WorkSans-Bold.ttf");
 }
 
+.active {
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -156,11 +161,6 @@ header li {
 header a {
   text-decoration: none;
   color: white;
-}
-
-header a:hover {
-  padding-bottom: 4px;
-  border-bottom: 2px solid white;
 }
 
 header .none:hover {
