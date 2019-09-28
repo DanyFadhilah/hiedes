@@ -955,10 +955,19 @@ svg.actived path {
     margin-left: -25px;
   }
   .galeri .satu .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
   }
   .galeri .satu #user {
-    margin-left: -30px;
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .satu p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
   .galeri .dua {
     width: 100%;
@@ -966,48 +975,132 @@ svg.actived path {
     margin-left: -25px;
   }
   .galeri .dua .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
+  }
+  .galeri .dua #user {
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .dua p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
   .galeri .lima {
     width: 100%;
     margin-left: -25px;
   }
   .galeri .lima .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
+  }
+  .galeri .lima #user {
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .lima p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
   .galeri .enam {
     width: 100%;
     margin-left: -25px;
   }
   .galeri .enam .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
+  }
+  .galeri .enam #user {
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .enam p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
   .galeri .tujuh {
     width: 100%;
     margin-left: -25px;
   }
   .galeri .tujuh .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
+  }
+  .galeri .tujuh #user {
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .tujuh p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
   .galeri .sembilan {
     width: 100%;
     margin-left: -25px;
   }
   .galeri .sembilan .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
+  }
+  .galeri .sembilan #user {
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .sembilan p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
   .galeri .sepuluh {
     width: 100%;
     margin-left: -25px;
   }
   .galeri .sepuluh .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
+  }
+  .galeri .sepuluh #user {
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .sepuluh p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
   .galeri .sebelas {
     width: 100%;
     margin-left: -25px;
   }
   .galeri .sebelas .bulat {
-    margin-left: -205px;
+    margin-left: 10px;
+    margin-top: 26px;
+    position: absolute;
+  }
+  .galeri .sebelas #user {
+    margin-left: 45px;
+    margin-top: 30px !important;
+    position: absolute;
+  }
+  .galeri .sebelas p {
+    width: 55%;
+    position: absolute;
+    margin-top: 32px !important;
   }
 }
