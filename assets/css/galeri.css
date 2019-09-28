@@ -1,0 +1,1010 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+
+a {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.galeri {
+  margin-top: 100px;
+  margin-bottom: 1200px;
+}
+
+.galeri h2 {
+  font-size: 32px;
+}
+
+.galeri #po {
+  margin-top: 10px;
+}
+
+.galeri .satu {
+  width: 290px;
+  margin-top: 50px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+}
+
+.galeri .satu .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .satu #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .satu .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .satu #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .satu p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .satu img {
+  border-radius: 5px;
+}
+
+.galeri .satu:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .dua {
+  width: 290px;
+  margin-top: -530px;
+  margin-left: 310px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .dua .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .dua #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .dua .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .dua #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .dua p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .dua img {
+  border-radius: 5px;
+}
+
+.galeri .dua:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .tiga {
+  width: 290px;
+  margin-top: -530px;
+  margin-left: 620px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .tiga .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .tiga #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .tiga .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .tiga #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .tiga p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .tiga img {
+  border-radius: 5px;
+}
+
+.galeri .tiga:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .empat {
+  width: 290px;
+  margin-top: -530px;
+  margin-left: 930px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .empat .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .empat #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .empat .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .empat #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .empat p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .empat img {
+  border-radius: 5px;
+}
+
+.galeri .empat:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .lima {
+  width: 290px;
+  margin-top: 20px;
+  margin-left: 0px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .lima .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .lima #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .lima .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .lima #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .lima p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .lima img {
+  border-radius: 5px;
+}
+
+.galeri .lima:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .enam {
+  width: 290px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .enam .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .enam #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .enam .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .enam #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .enam p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .enam img {
+  border-radius: 5px;
+}
+
+.galeri .enam:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .tujuh {
+  width: 290px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .tujuh .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .tujuh #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .tujuh .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .tujuh #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .tujuh p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .tujuh img {
+  border-radius: 5px;
+}
+
+.galeri .tujuh:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .delapan {
+  width: 290px;
+  margin-top: -530px;
+  margin-left: 930px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .delapan .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .delapan #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .delapan .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .delapan #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .delapan p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .delapan img {
+  border-radius: 5px;
+}
+
+.galeri .delapan:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .sembilan {
+  width: 290px;
+  margin-top: 20px;
+  margin-left: 0px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .sembilan .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .sembilan #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .sembilan .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .sembilan #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .sembilan p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .sembilan img {
+  border-radius: 5px;
+}
+
+.galeri .sembilan:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .sepuluh {
+  width: 290px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .sepuluh .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .sepuluh #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .sepuluh .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .sepuluh #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .sepuluh p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .sepuluh img {
+  border-radius: 5px;
+}
+
+.galeri .sepuluh:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .sebelas {
+  width: 290px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .sebelas .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .sebelas #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .sebelas .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .sebelas #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .sebelas p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .sebelas img {
+  border-radius: 5px;
+}
+
+.galeri .sebelas:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.galeri .duabelas {
+  width: 290px;
+  margin-top: -530px;
+  margin-left: 930px;
+  background: white;
+  height: 530px;
+  border-radius: 2px;
+  float: left;
+}
+
+.galeri .duabelas .bulat {
+  margin-top: 25px;
+  margin-left: -190px;
+  float: left;
+}
+
+.galeri .duabelas #user {
+  color: #2680EB;
+  margin-left: 40px;
+  font-size: 15px;
+  width: 30%;
+  margin-top: 13px !important;
+  float: left;
+}
+
+.galeri .duabelas .share {
+  float: left;
+  margin-top: -27px;
+  margin-left: 41px;
+}
+
+.galeri .duabelas #like {
+  margin-left: 11px;
+  margin-top: 0px !important;
+  color: #2680EB;
+  float: left;
+  cursor: pointer;
+}
+
+.galeri .duabelas p {
+  width: 100%;
+  margin-top: -16px !important;
+  margin-left: 90px;
+  font-size: 13px;
+  width: 65%;
+  float: left;
+}
+
+.galeri .duabelas img {
+  border-radius: 5px;
+}
+
+.galeri .duabelas:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+svg path {
+  cursor: pointer;
+}
+
+svg.actived path {
+  fill: #2680EB;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.div {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .galeri {
+    margin-left: 50px;
+  }
+  #po {
+    margin-left: 5px;
+  }
+  .empat {
+    display: none;
+  }
+  .delapan {
+    display: none;
+  }
+  .duabelas {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galeri {
+    margin-bottom: 1810px;
+  }
+  .galeri .satu {
+    width: 45%;
+    height: 570px;
+  }
+  .galeri .satu img {
+    width: 100%;
+  }
+  .galeri .satu .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .satu #user {
+    margin-left: 45px;
+  }
+  .galeri .satu p {
+    margin-left: 100px;
+  }
+  .galeri .dua {
+    width: 45%;
+    height: 570px;
+    margin-left: 350px;
+    margin-top: -570px;
+  }
+  .galeri .dua img {
+    width: 100%;
+  }
+  .galeri .dua .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .dua #user {
+    margin-left: 45px;
+  }
+  .galeri .dua p {
+    margin-left: 100px;
+  }
+  .galeri .tiga {
+    display: none;
+  }
+  .galeri .lima {
+    width: 45%;
+    height: 570px;
+  }
+  .galeri .lima img {
+    width: 100%;
+  }
+  .galeri .lima .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .lima #user {
+    margin-left: 45px;
+  }
+  .galeri .lima p {
+    margin-left: 100px;
+  }
+  .galeri .enam {
+    width: 45%;
+    height: 570px;
+    margin-left: 27px;
+  }
+  .galeri .enam img {
+    width: 100%;
+  }
+  .galeri .enam .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .enam #user {
+    margin-left: 45px;
+  }
+  .galeri .enam p {
+    margin-left: 100px;
+  }
+  .galeri .tujuh {
+    width: 45%;
+    height: 570px;
+    margin-left: 0px;
+  }
+  .galeri .tujuh img {
+    width: 100%;
+  }
+  .galeri .tujuh .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .tujuh #user {
+    margin-left: 45px;
+  }
+  .galeri .tujuh p {
+    margin-left: 100px;
+  }
+  .galeri .sembilan {
+    width: 45%;
+    height: 570px;
+    margin-left: 27px;
+  }
+  .galeri .sembilan img {
+    width: 100%;
+  }
+  .galeri .sembilan .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .sembilan #user {
+    margin-left: 45px;
+  }
+  .galeri .sembilan p {
+    margin-left: 100px;
+  }
+  .galeri .sepuluh {
+    width: 45%;
+    height: 570px;
+    margin-left: 0px;
+  }
+  .galeri .sepuluh img {
+    width: 100%;
+  }
+  .galeri .sepuluh .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .sepuluh #user {
+    margin-left: 45px;
+  }
+  .galeri .sepuluh p {
+    margin-left: 100px;
+  }
+  .galeri .sebelas {
+    width: 45%;
+    height: 570px;
+    margin-left: 27px;
+  }
+  .galeri .sebelas img {
+    width: 100%;
+  }
+  .galeri .sebelas .bulat {
+    width: 30px;
+    margin-left: -210px;
+  }
+  .galeri .sebelas #user {
+    margin-left: 45px;
+  }
+  .galeri .sebelas p {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    max-width: 300px;
+  }
+  .galeri {
+    margin-bottom: 4180px;
+  }
+  .galeri h2 {
+    margin-left: -25px;
+  }
+  .galeri #po {
+    margin-left: -20px;
+  }
+  .galeri .satu {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .galeri .satu .bulat {
+    margin-left: -205px;
+  }
+  .galeri .dua {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -25px;
+  }
+  .galeri .dua .bulat {
+    margin-left: -205px;
+  }
+  .galeri .lima {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .galeri .lima .bulat {
+    margin-left: -205px;
+  }
+  .galeri .enam {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .galeri .enam .bulat {
+    margin-left: -205px;
+  }
+  .galeri .tujuh {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .galeri .tujuh .bulat {
+    margin-left: -205px;
+  }
+  .galeri .sembilan {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .galeri .sembilan .bulat {
+    margin-left: -205px;
+  }
+  .galeri .sepuluh {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .galeri .sepuluh .bulat {
+    margin-left: -205px;
+  }
+  .galeri .sebelas {
+    width: 100%;
+    margin-left: -25px;
+  }
+  .galeri .sebelas .bulat {
+    margin-left: -205px;
+  }
+}

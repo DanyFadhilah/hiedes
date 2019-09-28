@@ -16,6 +16,58 @@ a {
   padding: 0;
 }
 
+.popup {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: none;
+}
+
+.popup-non .popup-active {
+  display: none;
+}
+
+.popup-non svg {
+  display: none;
+  width: 40px;
+  fill: white;
+  float: right;
+  margin-right: 270px;
+  margin-top: 165px;
+  cursor: pointer;
+}
+
+.popup-non video {
+  display: none;
+  margin-top: 190px;
+  margin-left: 360px;
+  width: 50%;
+}
+
+.popup-active {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  display: inline;
+}
+
+.popup-active svg {
+  width: 40px;
+  fill: white;
+  float: right;
+  margin-right: 270px;
+  margin-top: 165px;
+  cursor: pointer;
+}
+
+.popup-active video {
+  margin-top: 190px;
+  margin-left: 360px;
+  width: 50%;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,7 +75,7 @@ a {
 
 .bg1 {
   background-image: url("../image/Group71.jpg");
-  margin-top: -145px;
+  margin-top: -175px;
   height: 800px;
   width: 1500px;
   clear: both;
@@ -356,7 +408,7 @@ a {
 .bg5 {
   margin-top: 671px !important;
   margin-left: 55px;
-  margin-bottom: 700px;
+  margin-bottom: 80px;
 }
 
 .bg5 h3 {
@@ -452,7 +504,7 @@ a {
   background: none;
   border-radius: 5px;
   border: 1px solid #000000;
-  margin-top: 290px !important;
+  margin-top: 590px !important;
   margin-left: -605px;
   cursor: pointer;
   float: left;
@@ -874,9 +926,11 @@ a {
   }
   .bg5 .seleng4 {
     margin-left: -196px;
+    margin-top: 510px !important;
   }
   .bg6 h3 {
     margin-left: -55px;
+    margin-top: 175px;
   }
   .bg6 .kk {
     margin-left: -53px;

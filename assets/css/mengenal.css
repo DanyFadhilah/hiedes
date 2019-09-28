@@ -77,23 +77,27 @@ a {
   width: 18px;
   height: 18px;
   float: left;
-  margin-top: -25px;
+  margin-top: -24px;
+  margin-left: 4px;
   cursor: pointer;
 }
 
 .div2 {
-  margin-bottom: 150px;
+  margin-top: -970px;
+  margin-left: 700px;
+  margin-bottom: 1500px;
+  font-size: 23px;
 }
 
 .div2 p {
-  font-size: 23px;
   text-align: justify;
   line-height: 40px;
 }
 
 .div2 .kanan {
   float: right;
-  margin-top: -1460px;
+  clear: both;
+  margin-top: -1480px;
   margin-right: 100px;
 }
 
@@ -140,13 +144,229 @@ a {
   margin-top: 50px;
 }
 
+.div2 .bagian3 {
+  margin-top: 920px;
+  margin-bottom: -120px;
+  margin-left: -700px;
+}
+
+.div2 .bagian3 .hidekomen {
+  background-color: white;
+  width: 58%;
+  height: auto;
+  clear: both;
+  overflow: hidden;
+  margin-top: -880px;
+  margin-left: 55px;
+  border-radius: 5px;
+}
+
+.div2 .bagian3 .hidekomen p {
+  color: #2680EB;
+  font-size: 16px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen #name {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.div2 .bagian3 .hidekomen #name1 {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen #profile {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen #profile1 {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen #komen {
+  width: 50%;
+  font-size: 15px;
+  color: #000;
+  float: left;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.div2 .bagian3 .hidekomen #date {
+  font-size: 15px;
+  color: #9B9B9B;
+  float: left;
+  margin-left: 20px;
+}
+
+.div2 .bagian3 .hidekomen #like {
+  cursor: pointer;
+  margin-left: -485px;
+  margin-top: 80px;
+}
+
+.div2 .bagian3 .hidekomen #balas {
+  margin-left: -425px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen1 {
+  background-color: white;
+  width: 58%;
+  height: auto;
+  clear: both;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 55px;
+  float: left;
+}
+
+.div2 .bagian3 .hidekomen1 p {
+  color: #2680EB;
+  font-size: 16px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen1 #name {
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+.div2 .bagian3 .hidekomen1 #name1 {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen1 #profile {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: -65px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen1 #profile1 {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen1 #komen {
+  width: 50%;
+  font-size: 15px;
+  color: #000;
+  float: left;
+  margin-top: 25px;
+  margin-left: 15px;
+  line-height: 20px;
+}
+
+.div2 .bagian3 .hidekomen1 #date {
+  font-size: 15px;
+  color: #9B9B9B;
+  float: left;
+  margin-left: 20px;
+}
+
+.div2 .bagian3 .hidekomen1 #like {
+  cursor: pointer;
+  margin-left: -485px;
+  margin-top: 80px;
+}
+
+.div2 .bagian3 .hidekomen1 #balas1 {
+  margin-left: -425px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .balasan {
+  width: 96%;
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: none;
+}
+
+.div2 .bagian3 .balasan1 {
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: none;
+}
+
+.div2 .bagian3 .balasan-aktif {
+  width: 97%;
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+.div2 .bagian3 .balasan1-aktif {
+  width: 97%;
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
 svg path {
   cursor: pointer;
 }
 
 svg.actived path {
   fill: #2680EB;
-  border-bottom: none;
   cursor: pointer;
 }
 

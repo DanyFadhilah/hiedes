@@ -1,0 +1,483 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #f8f8f8;
+}
+
+a {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.berita {
+  margin-left: 55px;
+  margin-top: 100px;
+}
+
+.berita h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.berita .sumber {
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.berita img {
+  width: 1088px;
+  height: 631px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+
+.berita .isi {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.berita .la1 {
+  width: 95.5%;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.berita .la2 {
+  width: 60%;
+  text-align: justify;
+  line-height: 23px;
+}
+
+.berita .div {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.berita .omen {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-top: -28px;
+  margin-left: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.berita .share {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-top: -24px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.div2 {
+  margin-top: -970px;
+  margin-left: 700px;
+  margin-bottom: 370px;
+  font-size: 23px;
+}
+
+.div2 p {
+  text-align: justify;
+  line-height: 40px;
+}
+
+.div2 .kanan {
+  float: right;
+  clear: both;
+  margin-top: -980px;
+  margin-right: 100px;
+}
+
+.div2 .text {
+  margin-left: 80px;
+  margin-top: -21px;
+  font-size: 32px;
+}
+
+.div2 .right {
+  width: 70px;
+  height: 3px;
+  background: #2680EB;
+  margin-left: 83px;
+  margin-top: 15px;
+}
+
+.div2 img {
+  width: 84px;
+  margin-top: 30px;
+  margin-bottom: 76px;
+  margin-left: 83px;
+}
+
+.div2 .text1 {
+  font-size: 16px;
+  margin-left: 183px;
+  margin-top: -155px;
+  color: #000000;
+}
+
+.div2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.div2 .text2 {
+  font-size: 13px;
+  margin-left: 185px;
+  margin-bottom: -20px;
+}
+
+.div2 .kanan2 {
+  margin-top: 50px;
+}
+
+.div2 .kanan2 .lain9 {
+  display: none;
+}
+
+.div2 .kanan2 .lain10 {
+  display: none;
+}
+
+.div2 .kanan2 .lain11 {
+  display: none;
+}
+
+.div2 .kanan2 .lain12 {
+  display: none;
+}
+
+.div2 .kanan2 .lain13 {
+  display: none;
+}
+
+.div2 .kanan2 .lain14 {
+  display: none;
+}
+
+.div2 .bagian3 {
+  margin-top: 920px;
+  margin-bottom: -120px;
+  margin-left: -700px;
+}
+
+.div2 .bagian3 .hidekomen {
+  background-color: white;
+  width: 58%;
+  height: auto;
+  clear: both;
+  overflow: hidden;
+  margin-top: -940px;
+  margin-left: 55px;
+  border-radius: 5px;
+}
+
+.div2 .bagian3 .hidekomen p {
+  color: #2680EB;
+  font-size: 16px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen #name {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.div2 .bagian3 .hidekomen #name1 {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen #profile {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen #profile1 {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen #komen {
+  width: 50%;
+  font-size: 15px;
+  color: #000;
+  float: left;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.div2 .bagian3 .hidekomen #date {
+  font-size: 15px;
+  color: #9B9B9B;
+  float: left;
+  margin-left: 20px;
+}
+
+.div2 .bagian3 .hidekomen #like {
+  cursor: pointer;
+  margin-left: -485px;
+  margin-top: 80px;
+}
+
+.div2 .bagian3 .hidekomen #balas {
+  margin-left: -425px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen1 {
+  background-color: white;
+  width: 58%;
+  height: auto;
+  clear: both;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 55px;
+  float: left;
+}
+
+.div2 .bagian3 .hidekomen1 p {
+  color: #2680EB;
+  font-size: 16px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen1 #name {
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+.div2 .bagian3 .hidekomen1 #name1 {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.div2 .bagian3 .hidekomen1 #profile {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: -65px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen1 #profile1 {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .hidekomen1 #komen {
+  width: 50%;
+  font-size: 15px;
+  color: #000;
+  float: left;
+  margin-top: 25px;
+  margin-left: 15px;
+  line-height: 20px;
+}
+
+.div2 .bagian3 .hidekomen1 #date {
+  font-size: 15px;
+  color: #9B9B9B;
+  float: left;
+  margin-left: 20px;
+}
+
+.div2 .bagian3 .hidekomen1 #like {
+  cursor: pointer;
+  margin-left: -485px;
+  margin-top: 80px;
+}
+
+.div2 .bagian3 .hidekomen1 #balas1 {
+  margin-left: -425px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.div2 .bagian3 .balasan {
+  width: 96%;
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: none;
+}
+
+.div2 .bagian3 .balasan1 {
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: none;
+}
+
+.div2 .bagian3 .balasan-aktif {
+  width: 97%;
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+.div2 .bagian3 .balasan1-aktif {
+  width: 97%;
+  margin-top: 30px;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  padding-left: 20px;
+  float: left;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+svg path {
+  cursor: pointer;
+}
+
+svg.actived path {
+  fill: #2680EB;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .berita h2 {
+    width: 80%;
+    margin-left: 100px;
+  }
+  .berita img {
+    width: 95%;
+    height: auto;
+  }
+  .div2 .kanan {
+    margin-top: -1760px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .berita h2 {
+    margin-left: 60px;
+  }
+  .berita .sumber {
+    margin-left: 250px !important;
+    text-align: left;
+  }
+  .berita .la2 {
+    width: 95.5%;
+    margin-left: -5px;
+  }
+  .berita .la1 {
+    margin-left: -5px;
+  }
+  .berita img {
+    margin-left: -5px;
+  }
+  .berita .share {
+    margin-left: 5px;
+  }
+  .div2 .kanan {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .berita h2 {
+    margin-left: -5px;
+    width: 90%;
+  }
+  .berita .sumber {
+    text-align: left;
+    margin-left: 60px !important;
+  }
+  .berita img {
+    margin-left: -15px;
+  }
+  .berita .la1 {
+    margin-left: -15px;
+  }
+  .berita .la2 {
+    margin-left: -15px;
+  }
+  .berita .div {
+    margin-left: -15px;
+  }
+  .berita .omen {
+    margin-left: 20px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .berita h2 {
+    margin-left: -10px;
+    width: 90%;
+  }
+  .berita .sumber {
+    text-align: left;
+    margin-left: 30px !important;
+  }
+  .berita img {
+    margin-left: -19px;
+  }
+  .berita .la1 {
+    margin-left: -19px;
+  }
+  .berita .la2 {
+    margin-left: -19px;
+  }
+}

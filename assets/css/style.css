@@ -126,6 +126,10 @@ header .menu-hide {
   transition: 1s;
 }
 
+header .menu-hide a {
+  color: blue;
+}
+
 header .menu-hide li {
   width: 100% !important;
   float: none;
@@ -144,6 +148,7 @@ header .menu-hide .login a {
   float: left;
   padding-left: 5px !important;
   text-align: left;
+  color: red;
 }
 
 header ul {
@@ -170,14 +175,22 @@ header .none:hover {
 
 header .bendera {
   width: 22px;
-  margin-top: 21px;
-  margin-left: 35px;
+  margin-top: 19px;
+  margin-left: -52px;
+  cursor: pointer;
+}
+
+header .ind {
+  margin-top: 20.5px;
+  margin-left: 50px;
+  float: left;
+  cursor: pointer;
 }
 
 header .panah {
   width: 10px;
-  margin-top: -20px;
-  margin-right: 125px;
+  margin-top: -38px;
+  margin-right: 190px;
   float: right;
 }
 
@@ -189,7 +202,7 @@ header .masuk {
   height: 35px;
   color: white;
   float: left;
-  margin-top: -47px;
+  margin-top: -45px;
   margin-left: 754px;
   cursor: pointer;
 }
@@ -199,6 +212,51 @@ header .masuk:hover {
   border: 1px solid #2680EB;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+#dad {
+  margin-top: -64px !important;
+}
+
+.menu-hiden {
+  width: 7%;
+  height: 0;
+  overflow: hidden;
+  background: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 666px;
+  margin-top: -5px;
+}
+
+.menu-hiden img {
+  margin-left: 7px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.menu-hiden .en {
+  color: blue;
+  margin-left: 30px;
+  margin-top: -23px;
+  cursor: pointer;
+}
+
+.menu-hiden-active {
+  height: 30px;
+  margin-left: 666px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.menu-hiden-active img {
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.menu-hiden-active .panah {
+  margin-top: -100px !important;
 }
 
 footer {
@@ -294,7 +352,7 @@ footer a {
     display: block;
     float: right;
     margin-right: 15px !important;
-    margin-top: -2px;
+    margin-top: -39px;
     height: 40px;
   }
   header .menu-hide {
@@ -324,62 +382,10 @@ footer a {
     margin-top: -65px;
     margin-left: 80px;
   }
-  header .search {
-    height: 50px;
-    width: 200px;
-    margin-left: 100px;
-  }
-  header .search input {
-    height: 40px;
-    width: 450px;
-    margin-top: 5px;
-    margin-left: 100px;
-    border-radius: 2px;
-    border: none;
-    border: 1px solid whitesmoke;
-    -webkit-transition: 0.75s;
-    transition: 0.75s;
-    font-family: Comfortaa-Light;
-    font-size: 13px;
-    padding-left: 10px;
-  }
-  header .search input:hover {
-    color: #0009;
-    padding-left: 5px;
-    -webkit-transition: 0.75s;
-    transition: 0.75s;
-    font-size: 13px;
-    padding-left: 20px;
-    font-family: Comfortaa-Light;
-  }
-  header .search input::-webkit-input-placeholder {
-    position: relative;
-    font-size: 15px;
-    color: #0009;
-    padding-left: 10px;
-  }
-  header .search input:hover::-webkit-input-placeholder {
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    padding-left: 30px;
-    font-family: Comfortaa-Light;
-    color: #0009;
-  }
-  header .view {
-    width: 100%;
-    margin: 50px auto !important;
-    float: left;
-  }
-  header .view a {
-    text-align: center;
-  }
   header .container {
     max-width: 500px;
     margin: 0 auto;
     padding: 0 auto;
-  }
-  header nav {
-    position: fixed;
   }
   header .navbar ul li {
     display: none;
@@ -429,7 +435,6 @@ footer a {
     display: block;
     float: right;
     margin-right: -10px;
-    margin-top: -5px;
     height: 40px;
   }
   header .login {
