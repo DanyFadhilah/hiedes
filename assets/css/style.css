@@ -276,6 +276,24 @@ footer {
   height: 329px;
 }
 
+footer img {
+  float: left;
+  margin-left: 40px;
+  margin-right: -420px;
+  margin-top: 100px;
+  width: 150px;
+}
+
+footer #tujuan {
+  width: 30%;
+  font-size: 14px;
+  text-align: justify;
+  margin-left: 40px;
+  margin-top: 130px;
+  margin-right: -400px;
+  float: left;
+}
+
 footer h1 {
   font-size: 20px;
 }
@@ -384,19 +402,21 @@ footer a {
   footer .kiri1 {
     float: left;
     margin-top: 100px;
-    margin-left: 270px;
+    margin-left: 380px;
   }
   footer .kiri {
     float: left;
+    margin-left: -40px;
     margin-top: 100px;
   }
   footer .tengah {
     float: left;
+    margin-left: -40px;
     margin-top: 100px;
   }
   footer .kanan {
-    margin-top: -100px;
-    margin-left: 190px;
+    margin-top: 100px;
+    margin-left: -40px;
   }
 }
 
@@ -582,11 +602,19 @@ footer a {
     display: none;
   }
   footer {
-    height: 720px;
+    height: 780px;
+  }
+  footer img {
+    margin-top: 50px;
+  }
+  footer #tujuan {
+    margin-top: 75px;
+    width: 80%;
+    text-align: left;
   }
   footer .kiri1 {
     margin-left: 40px;
-    margin-top: 150px;
+    margin-top: 200px;
   }
   footer .kiri {
     margin-left: 40px;

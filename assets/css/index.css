@@ -519,7 +519,7 @@ a {
 }
 
 .bg6 {
-  margin-bottom: 950px;
+  margin-bottom: 150px;
   margin-left: 55px;
 }
 
@@ -844,6 +844,7 @@ a {
   }
   .bg6 {
     margin-left: 125px;
+    margin-bottom: 100px;
   }
   .bg6 h3 {
     margin-left: -70px;
@@ -1120,7 +1121,7 @@ a {
     margin-top: 510px !important;
   }
   .bg6 {
-    margin-bottom: 750px;
+    margin-bottom: 100px;
   }
   .bg6 h3 {
     margin-left: -55px;
@@ -1413,7 +1414,7 @@ a {
   .bg6 {
     margin-left: 90px;
     margin-top: -150px !important;
-    margin-bottom: 1350px;
+    margin-bottom: 100px;
   }
   .bg6 .awal {
     margin-top: 50px;
