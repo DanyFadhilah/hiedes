@@ -20,9 +20,37 @@ a {
   max-width: 1200px;
 }
 
-.bagian1 {
+.sear .ari {
+  width: 326px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 795px;
+  margin-top: -45px;
+  background: white;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.sear #nan {
+  float: right;
+  margin-top: -60px;
+  margin-left: 1120px;
+  height: 45px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.sear h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
   margin-top: 100px;
-  margin-bottom: 2100px;
+}
+
+.bagian1 {
+  margin-top: 20px;
+  margin-bottom: 300px;
 }
 
 .bagian1 h3 {
@@ -39,11 +67,6 @@ a {
   font-size: 15px;
   color: #777777;
   line-height: 23px;
-}
-
-.bagian1 h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
 }
 
 .bagian1 .one {
@@ -200,6 +223,22 @@ a {
   transition: 1s;
 }
 
+.menu-hide h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.menu-hide h4 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.menu-hide p {
+  font-size: 15px;
+  color: #777777;
+  line-height: 23px;
+}
+
 .menu-hide .one {
   margin-top: 50px;
   margin-right: 20px;
@@ -280,10 +319,10 @@ a {
 }
 
 .menu-hide-active {
-  height: 1450px;
+  height: 2200px;
   margin-left: 0px;
-  margin-top: -200px !important;
+  margin-top: -439px !important;
   -webkit-transition: 1s;
   transition: 1s;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }

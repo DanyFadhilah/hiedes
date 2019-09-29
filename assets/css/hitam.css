@@ -28,7 +28,7 @@ a {
 
 .active {
   padding-bottom: 4px;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #2680EB;
 }
 
 .container {
@@ -37,11 +37,18 @@ a {
 }
 
 header {
-  color: white;
+  color: #2680EB;
   position: fixed;
   font-size: 15px semibold;
   width: 100%;
   z-index: +100000;
+}
+
+header #ikon {
+  float: left;
+  position: absolute;
+  margin-left: -350px;
+  margin-top: -34px;
 }
 
 header .navbar {
@@ -114,7 +121,6 @@ header #nav-icon1.open span:nth-child(3) {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-top: -10px;
-  background: white;
   background: #000;
 }
 
@@ -125,6 +131,10 @@ header .menu-hide {
   background: #fff;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+header .menu-hide a {
+  color: blue;
 }
 
 header .menu-hide li {
@@ -145,6 +155,7 @@ header .menu-hide .login a {
   float: left;
   padding-left: 5px !important;
   text-align: left;
+  color: #000;
 }
 
 header ul {
@@ -161,7 +172,7 @@ header li {
 
 header a {
   text-decoration: none;
-  color: #000000;
+  color: #2680EB;
 }
 
 header a:hover {
@@ -169,102 +180,99 @@ header a:hover {
   border-bottom: 2px solid #2680EB;
 }
 
-header .bendera {
-  width: 22px;
-  margin-top: 21px;
-  margin-left: -50px;
-}
-
-header .ind {
-  margin-top: 20.5px;
-  margin-left: 50px;
-  float: left;
-  cursor: pointer;
-  color: #000;
-}
-
-header .panah {
-  width: 10px;
-  margin-top: -20px;
-  margin-right: 125px;
-  float: right;
-}
-
-header .masuk {
-  border-radius: 5px;
-  border: 1px solid #000000;
-  background: none;
-  width: 86px;
-  height: 35px;
-  color: #000000;
-  float: left;
-  margin-top: -47px;
-  margin-left: 754px;
-  cursor: pointer;
-}
-
 header .none:hover {
   border-bottom: none;
   margin-bottom: -4px;
 }
 
-header .masuk:hover {
-  background-color: #000000;
-  border: 1px solid #000000;
-  color: white;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+header .bendera {
+  width: 22px;
+  margin-top: 19px;
+  margin-left: -50px;
+  cursor: pointer;
 }
 
-header #dad {
+header .ind {
+  margin-top: 18.5px;
+  margin-left: 44px;
+  float: left;
+  cursor: pointer;
+}
+
+header .panah {
+  width: 10px;
+  margin-top: -38px;
+  margin-right: 190px;
+  float: right;
+}
+
+header .masuk {
+  border-radius: 5px;
+  border: 1px solid #2680EB;
+  background: none;
+  width: 86px;
+  height: 35px;
+  color: #2680EB;
+  float: left;
+  margin-top: -45px;
+  margin-left: 754px;
+  cursor: pointer;
+}
+
+header .masuk:hover {
+  background-color: #2680EB;
+  border: 1px solid #2680EB;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: white;
+}
+
+#dad {
   margin-top: -64px !important;
 }
 
-header .menu-hiden {
-  width: 7%;
+.menu-hiden {
+  width: 5%;
   height: 0;
   overflow: hidden;
   background: whitesmoke;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  margin-left: 666px;
+  margin-left: 660px;
   margin-top: -5px;
+  position: absolute;
 }
 
-header .menu-hiden img {
+.menu-hiden img {
   margin-left: 7px;
   margin-top: 5px;
   cursor: pointer;
 }
 
-header .menu-hiden .en {
-  color: #000;
+.menu-hiden .en {
+  color: #2680EB;
   margin-left: 30px;
   margin-top: -23px;
   cursor: pointer;
 }
 
-header .menu-hiden-active {
+.menu-hiden-active {
   height: 30px;
-  margin-left: 666px;
+  margin-left: 660px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
 }
 
-header .menu-hiden-active img {
+.menu-hiden-active img {
   margin-left: 7px;
   margin-top: 5px;
 }
 
-header .menu-hiden-active .panah {
-  margin-top: -100px !important;
-}
-
 footer {
+  height: 200px;
   color: white;
   background: #2680EB;
-  background-size: cover;
   width: 100%;
   height: 329px;
 }
@@ -281,7 +289,7 @@ footer p {
 footer .kiri1 {
   float: left;
   margin-top: 100px;
-  margin-left: 455px;
+  margin-left: 450px;
   margin-right: 70px;
 }
 
@@ -315,11 +323,64 @@ footer a {
     width: 100%;
   }
   header ul {
-    margin-left: 120px;
+    margin-left: 250px;
   }
-  header .panah {
-    float: right;
-    margin-right: 165px;
+  header #ikon {
+    margin-top: -30px;
+    margin-left: -215px;
+    width: 160px;
+  }
+  header .ind {
+    margin-left: 602px;
+    margin-top: -25px;
+  }
+  header .menu-hiden {
+    width: 6%;
+    height: 0;
+    overflow: hidden;
+    background: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 575px;
+    margin-top: -5px;
+    position: absolute;
+  }
+  header .menu-hiden img {
+    margin-left: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  header .menu-hiden .en {
+    color: blue;
+    margin-left: 30px;
+    margin-top: -23px;
+    cursor: pointer;
+  }
+  header .menu-hiden-active {
+    height: 30px;
+    margin-left: 575px;
+    margin-right: 100px;
+    position: absolute;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  header .menu-hiden-active img {
+    margin-left: 7px;
+    margin-top: 5px;
+  }
+  header .masuk {
+    margin-left: 645px;
+    margin-top: -46px;
+  }
+  header li {
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  header .bendera {
+    margin-left: 10px;
+    margin-top: 20px;
   }
   footer .kiri1 {
     float: left;
@@ -347,35 +408,63 @@ footer a {
     position: fixed !important;
     width: 100%;
   }
+  header .menu-hiden {
+    width: 6%;
+    height: 0;
+    overflow: hidden;
+    background: whitesmoke;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 434px;
+    margin-top: -5px;
+    position: absolute;
+  }
+  header .menu-hiden img {
+    margin-left: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  header .menu-hiden .en {
+    color: blue;
+    margin-left: 30px;
+    margin-top: -23px;
+    cursor: pointer;
+  }
+  header .menu-hiden-active {
+    height: 30px;
+    margin-left: 434px;
+    margin-right: 100px;
+    position: absolute;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  header .menu-hiden-active img {
+    margin-left: 7px;
+    margin-top: 5px;
+  }
+  header ul {
+    margin-left: 25px;
+    font-size: 12px;
+  }
+  header li {
+    float: left;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+  header .bendera {
+    margin-top: 26px;
+  }
+  header .ind {
+    margin-left: 460px;
+    margin-top: -21px;
+  }
+  header .masuk {
+    margin-left: 500px;
+    margin-top: -41px;
+  }
   header .navbar {
     height: 55px;
-  }
-  header #nav-icon1 {
-    display: block;
-    float: right;
-    margin-right: 15px !important;
-    margin-top: -39px;
-    height: 40px;
-  }
-  header .menu-hide {
-    margin-top: 0px;
-    margin-left: -1000px;
-    display: block;
-    width: 50%;
-  }
-  header .menu-hide-active {
-    height: 335px;
-    margin-left: 0px;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-  header .menu-hide li {
-    margin-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #2680EB;
-    width: 100%;
-    font-size: 15px;
-    font-weight: 1px;
   }
   header .garis {
     margin-top: 10px !important;
@@ -389,11 +478,10 @@ footer a {
     margin: 0 auto;
     padding: 0 auto;
   }
-  header .navbar ul li {
-    display: none;
-  }
-  header img {
-    display: none;
+  header #ikon {
+    margin-left: -135px;
+    margin-top: -25px;
+    width: 120px;
   }
   footer {
     height: 320px;
@@ -401,17 +489,17 @@ footer a {
   footer .kiri1 {
     width: 100%;
     float: left;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 300px;
   }
   footer .kiri {
     float: left;
-    margin-top: -164px;
+    margin-top: -166px;
     margin-left: 450px;
   }
   footer .tengah {
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 300px;
   }
   footer .a2 {
@@ -419,14 +507,48 @@ footer a {
     margin-top: -33px;
   }
   footer .kanan {
-    margin-top: -244px;
+    margin-top: -235px;
     margin-left: 600px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  header a {
-    color: blue;
+  header #ikon {
+    display: inline;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    width: 150px;
+  }
+  header #nav-icon1 {
+    display: block;
+    float: right;
+    margin-right: 15px !important;
+    margin-top: -39px;
+    height: 40px;
+  }
+  header .menu-hide {
+    margin-top: 0px;
+    margin-left: -1000px;
+    display: block;
+    width: 70%;
+  }
+  header .menu-hide-active {
+    height: 285px;
+    margin-left: 0px;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  header .menu-hide li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid whitesmoke;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 1px;
+  }
+  header .menu-hide a {
+    color: #000;
   }
   header .container {
     max-width: 300px;
@@ -441,10 +563,13 @@ footer a {
   }
   header .login {
     float: left;
-    margin-left: -125px;
+    margin-left: -31px;
+  }
+  header .login li {
+    border-bottom: none;
   }
   header .tenga {
-    margin-top: -20px;
+    margin-top: -18px;
     margin-left: 30px;
   }
   header .teng {
@@ -453,6 +578,9 @@ footer a {
   }
   header .kir {
     margin-top: -6px !important;
+  }
+  header .navbar ul li {
+    display: none;
   }
   footer {
     height: 720px;

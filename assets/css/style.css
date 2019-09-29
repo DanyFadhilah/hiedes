@@ -44,6 +44,13 @@ header {
   z-index: +100000;
 }
 
+header #ikon {
+  float: left;
+  position: absolute;
+  margin-left: -300px;
+  margin-top: -34px;
+}
+
 header .navbar {
   background: #2680EB;
   width: 100%;
@@ -148,7 +155,7 @@ header .menu-hide .login a {
   float: left;
   padding-left: 5px !important;
   text-align: left;
-  color: red;
+  color: #000;
 }
 
 header ul {
@@ -168,6 +175,11 @@ header a {
   color: white;
 }
 
+header a:hover {
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
+}
+
 header .none:hover {
   border-bottom: none;
   margin-bottom: -4px;
@@ -175,14 +187,14 @@ header .none:hover {
 
 header .bendera {
   width: 22px;
-  margin-top: 19px;
-  margin-left: -52px;
+  margin-top: 21px;
+  margin-left: 27px;
   cursor: pointer;
 }
 
 header .ind {
-  margin-top: 20.5px;
-  margin-left: 50px;
+  margin-top: -24.5px;
+  margin-left: 695px;
   float: left;
   cursor: pointer;
 }
@@ -203,7 +215,7 @@ header .masuk {
   color: white;
   float: left;
   margin-top: -45px;
-  margin-left: 754px;
+  margin-left: 739px;
   cursor: pointer;
 }
 
@@ -226,7 +238,7 @@ header .masuk:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-left: 666px;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 
 .menu-hiden img {
@@ -248,15 +260,12 @@ header .masuk:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
+  margin-top: 0px;
 }
 
 .menu-hiden-active img {
   margin-left: 7px;
   margin-top: 5px;
-}
-
-.menu-hiden-active .panah {
-  margin-top: -100px !important;
 }
 
 footer {
@@ -313,11 +322,64 @@ footer a {
     width: 100%;
   }
   header ul {
-    margin-left: 120px;
+    margin-left: 250px;
   }
-  header .panah {
-    float: right;
-    margin-right: 165px;
+  header #ikon {
+    margin-top: -30px;
+    margin-left: -215px;
+    width: 160px;
+  }
+  header .ind {
+    margin-left: 602px;
+    margin-top: -25px;
+  }
+  header .menu-hiden {
+    width: 6%;
+    height: 0;
+    overflow: hidden;
+    background: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 575px;
+    margin-top: -5px;
+    position: absolute;
+  }
+  header .menu-hiden img {
+    margin-left: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  header .menu-hiden .en {
+    color: blue;
+    margin-left: 30px;
+    margin-top: -23px;
+    cursor: pointer;
+  }
+  header .menu-hiden-active {
+    height: 30px;
+    margin-left: 575px;
+    margin-right: 100px;
+    position: absolute;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  header .menu-hiden-active img {
+    margin-left: 7px;
+    margin-top: 5px;
+  }
+  header .masuk {
+    margin-left: 570px;
+    margin-top: -40px;
+  }
+  header li {
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  header .bendera {
+    margin-left: 10px;
+    margin-top: 25px;
   }
   footer .kiri1 {
     float: left;
@@ -345,35 +407,63 @@ footer a {
     position: fixed !important;
     width: 100%;
   }
+  header .menu-hiden {
+    width: 6.5%;
+    height: 0;
+    overflow: hidden;
+    background: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 434px;
+    margin-top: -5px;
+    position: absolute;
+  }
+  header .menu-hiden img {
+    margin-left: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  header .menu-hiden .en {
+    color: blue;
+    margin-left: 30px;
+    margin-top: -23px;
+    cursor: pointer;
+  }
+  header .menu-hiden-active {
+    height: 30px;
+    margin-left: 434px;
+    margin-right: 100px;
+    position: absolute;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  header .menu-hiden-active img {
+    margin-left: 7px;
+    margin-top: 5px;
+  }
+  header ul {
+    margin-left: 25px;
+    font-size: 12px;
+  }
+  header li {
+    float: left;
+    padding-left: 15px;
+    margin-top: 20px;
+  }
+  header .bendera {
+    margin-top: 26px;
+  }
+  header .ind {
+    margin-left: 460px;
+    margin-top: -21px;
+  }
+  header .masuk {
+    margin-left: 500px;
+    margin-top: -41px;
+  }
   header .navbar {
     height: 55px;
-  }
-  header #nav-icon1 {
-    display: block;
-    float: right;
-    margin-right: 15px !important;
-    margin-top: -39px;
-    height: 40px;
-  }
-  header .menu-hide {
-    margin-top: 0px;
-    margin-left: -1000px;
-    display: block;
-    width: 50%;
-  }
-  header .menu-hide-active {
-    height: 335px;
-    margin-left: 0px;
-    -webkit-transition: 1s;
-    transition: 1s;
-  }
-  header .menu-hide li {
-    margin-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #2680EB;
-    width: 100%;
-    font-size: 15px;
-    font-weight: 1px;
   }
   header .garis {
     margin-top: 10px !important;
@@ -387,11 +477,10 @@ footer a {
     margin: 0 auto;
     padding: 0 auto;
   }
-  header .navbar ul li {
-    display: none;
-  }
-  header img {
-    display: none;
+  header #ikon {
+    margin-left: -135px;
+    margin-top: -25px;
+    width: 120px;
   }
   footer {
     height: 320px;
@@ -423,8 +512,42 @@ footer a {
 }
 
 @media screen and (max-width: 360px) {
-  header a {
-    color: blue;
+  header #ikon {
+    display: inline;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    width: 150px;
+  }
+  header #nav-icon1 {
+    display: block;
+    float: right;
+    margin-right: 15px !important;
+    margin-top: -39px;
+    height: 40px;
+  }
+  header .menu-hide {
+    margin-top: 0px;
+    margin-left: -1000px;
+    display: block;
+    width: 70%;
+  }
+  header .menu-hide-active {
+    height: 285px;
+    margin-left: 0px;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  header .menu-hide li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid whitesmoke;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 1px;
+  }
+  header .menu-hide a {
+    color: #000;
   }
   header .container {
     max-width: 300px;
@@ -439,10 +562,13 @@ footer a {
   }
   header .login {
     float: left;
-    margin-left: -125px;
+    margin-left: -31px;
+  }
+  header .login li {
+    border-bottom: none;
   }
   header .tenga {
-    margin-top: -20px;
+    margin-top: -18px;
     margin-left: 30px;
   }
   header .teng {
@@ -451,6 +577,9 @@ footer a {
   }
   header .kir {
     margin-top: -6px !important;
+  }
+  header .navbar ul li {
+    display: none;
   }
   footer {
     height: 720px;

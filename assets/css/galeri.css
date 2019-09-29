@@ -83,14 +83,6 @@ a {
   border-radius: 5px;
 }
 
-.galeri .satu:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .galeri .dua {
   width: 290px;
   margin-top: -530px;
@@ -141,14 +133,6 @@ a {
 
 .galeri .dua img {
   border-radius: 5px;
-}
-
-.galeri .dua:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .galeri .tiga {
@@ -203,14 +187,6 @@ a {
   border-radius: 5px;
 }
 
-.galeri .tiga:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .galeri .empat {
   width: 290px;
   margin-top: -530px;
@@ -261,14 +237,6 @@ a {
 
 .galeri .empat img {
   border-radius: 5px;
-}
-
-.galeri .empat:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .galeri .lima {
@@ -323,14 +291,6 @@ a {
   border-radius: 5px;
 }
 
-.galeri .lima:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .galeri .enam {
   width: 290px;
   margin-top: 20px;
@@ -381,14 +341,6 @@ a {
 
 .galeri .enam img {
   border-radius: 5px;
-}
-
-.galeri .enam:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .galeri .tujuh {
@@ -443,14 +395,6 @@ a {
   border-radius: 5px;
 }
 
-.galeri .tujuh:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .galeri .delapan {
   width: 290px;
   margin-top: -530px;
@@ -501,14 +445,6 @@ a {
 
 .galeri .delapan img {
   border-radius: 5px;
-}
-
-.galeri .delapan:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .galeri .sembilan {
@@ -563,14 +499,6 @@ a {
   border-radius: 5px;
 }
 
-.galeri .sembilan:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .galeri .sepuluh {
   width: 290px;
   margin-top: 20px;
@@ -621,14 +549,6 @@ a {
 
 .galeri .sepuluh img {
   border-radius: 5px;
-}
-
-.galeri .sepuluh:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .galeri .sebelas {
@@ -683,14 +603,6 @@ a {
   border-radius: 5px;
 }
 
-.galeri .sebelas:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
 .galeri .duabelas {
   width: 290px;
   margin-top: -530px;
@@ -741,14 +653,6 @@ a {
 
 .galeri .duabelas img {
   border-radius: 5px;
-}
-
-.galeri .duabelas:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 svg path {

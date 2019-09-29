@@ -285,8 +285,8 @@ a {
 }
 
 .bg4 .thv {
-  margin-top: 193px;
-  margin-left: -379px;
+  margin-top: 400px;
+  margin-left: -635px;
   float: left;
 }
 
@@ -519,7 +519,7 @@ a {
 }
 
 .bg6 {
-  margin-bottom: 580px;
+  margin-bottom: 950px;
   margin-left: 55px;
 }
 
@@ -528,100 +528,153 @@ a {
   margin-bottom: 15px;
 }
 
-.bg6 p {
-  line-height: 27px;
+.bg6 .awal {
+  margin-top: 50px;
+  position: absolute;
 }
 
-.bg6 .bulat {
-  margin-left: 130px;
-  margin-top: -45px;
-  margin-bottom: 40px;
+.bg6 .awal img {
+  float: left;
 }
 
-.bg6 .ard {
-  color: #777777;
-  font-size: 16px;
-  margin-left: 25px;
-  text-align: center;
-  width: 85%;
-}
-
-.bg6 .ar {
+.bg6 .awal h3 {
+  float: left;
+  width: 60%;
+  margin-left: 40px;
   font-size: 22px;
-  margin-left: 100px;
-  margin-top: 30px;
-  margin-bottom: 5px;
 }
 
-.bg6 .left {
-  border: 1px solid none;
-  width: 349px;
-  height: 290px;
-  margin-top: 100px;
-  background-color: white;
+.bg6 .awal .isi {
   float: left;
-  margin-right: 30px;
-  -webkit-box-shadow: 0 0 1px #2680BE;
-  box-shadow: 0 0 1px #2680BE;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  text-align: justify;
+  margin-top: 5px;
 }
 
-.bg6 .left:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-box-shadow: 0 0 2px #2680BE;
-  box-shadow: 0 0 2px #2680BE;
+.bg6 .awal .sum {
+  float: left;
+  margin-left: 40px;
+  margin-top: 12px;
+  font-size: 13px;
+  width: 60%;
+}
+
+.bg6 .awal .seleng4 {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #2680EB;
+  background: #2680EB;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
   cursor: pointer;
 }
 
-.bg6 .center {
-  border: 1px solid none;
-  width: 349px;
-  height: 290px;
-  margin-top: 100px;
-  background-color: white;
-  float: left;
-  margin-right: 30px;
-  -webkit-box-shadow: 0 0 1px #2680BE;
-  box-shadow: 0 0 1px #2680BE;
+.bg6 .tengah {
+  margin-top: 300px;
+  position: absolute;
 }
 
-.bg6 .center:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-box-shadow: 0 0 2px #2680BE;
-  box-shadow: 0 0 2px #2680BE;
+.bg6 .tengah img {
+  float: left;
+}
+
+.bg6 .tengah h3 {
+  float: left;
+  width: 60%;
+  margin-left: 40px;
+  font-size: 22px;
+}
+
+.bg6 .tengah .isi {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.bg6 .tengah .sum {
+  float: left;
+  margin-left: 40px;
+  margin-top: 12px;
+  font-size: 13px;
+  width: 60%;
+}
+
+.bg6 .tengah .seleng4 {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #2680EB;
+  background: #2680EB;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
   cursor: pointer;
 }
 
-.bg6 .right {
-  width: 349px;
-  height: 290px;
-  margin-top: 100px;
-  background-color: white;
-  float: left;
-  -webkit-box-shadow: 0 0 1px #2680BE;
-  box-shadow: 0 0 1px #2680BE;
+.bg6 .akhir {
+  margin-top: 550px;
+  position: absolute;
 }
 
-.bg6 .right:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-box-shadow: 0 0 2px #2680BE;
-  box-shadow: 0 0 2px #2680BE;
+.bg6 .akhir img {
+  float: left;
+}
+
+.bg6 .akhir h3 {
+  float: left;
+  width: 60%;
+  margin-left: 40px;
+  font-size: 22px;
+}
+
+.bg6 .akhir .isi {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.bg6 .akhir .sum {
+  float: left;
+  margin-left: 40px;
+  margin-top: 12px;
+  font-size: 13px;
+  width: 60%;
+}
+
+.bg6 .akhir .seleng4 {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #2680EB;
+  background: #2680EB;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
   cursor: pointer;
 }
 
 .bg6 .selengka {
-  margin-top: 454px;
+  margin-top: 820px;
+  margin-left: 491px !important;
   width: 136.3px;
   height: 37.58px;
   background: none;
@@ -796,31 +849,169 @@ a {
     margin-left: -70px;
   }
   .bg6 .kk {
-    margin-left: -67px;
+    margin-left: -68px;
   }
-  .bg6 .ard {
-    margin-left: 30px;
+  .bg6 .awal {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: -60px;
   }
-  .bg6 .ar {
-    margin-left: 110px;
+  .bg6 .awal img {
+    float: left;
   }
-  .bg6 .right {
-    display: none;
+  .bg6 .awal h3 {
+    float: left;
+    width: 55%;
+    margin-left: 20px;
+    font-size: 16px;
   }
-  .bg6 .left {
-    width: 40%;
-    height: 300px;
+  .bg6 .awal .isi {
+    float: left;
+    font-size: 13px;
+    width: 55%;
+    line-height: 25px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-top: -5px;
   }
-  .bg6 .center {
-    width: 40%;
-    height: 300px;
+  .bg6 .awal .sum {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 55%;
   }
-  .bg6 .bulat {
-    margin-left: 150px;
+  .bg6 .awal .seleng4 {
+    float: left;
+    margin-left: 20px;
+    width: 136.3px;
+    height: 37.58px;
+    margin-top: 10px;
+    border: 1px solid #2680EB;
+    background: #2680EB;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .bg6 .tengah {
+    margin-top: 300px;
+    position: absolute;
+    margin-left: -60px;
+  }
+  .bg6 .tengah img {
+    float: left;
+  }
+  .bg6 .tengah h3 {
+    float: left;
+    width: 55%;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .bg6 .tengah .isi {
+    float: left;
+    font-size: 13px;
+    width: 55%;
+    line-height: 25px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-top: -5px;
+  }
+  .bg6 .tengah .sum {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 55%;
+  }
+  .bg6 .tengah .seleng4 {
+    float: left;
+    margin-left: 20px;
+    width: 136.3px;
+    height: 37.58px;
+    margin-top: 10px;
+    border: 1px solid #2680EB;
+    background: #2680EB;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .bg6 .akhir {
+    margin-top: 550px;
+    position: absolute;
+    margin-left: -60px;
+  }
+  .bg6 .akhir img {
+    float: left;
+  }
+  .bg6 .akhir h3 {
+    float: left;
+    width: 55%;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .bg6 .akhir .isi {
+    float: left;
+    font-size: 13px;
+    width: 55%;
+    line-height: 25px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-top: -5px;
+  }
+  .bg6 .akhir .sum {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 55%;
+  }
+  .bg6 .akhir .seleng4 {
+    float: left;
+    margin-left: 20px;
+    width: 136.3px;
+    height: 37.58px;
+    margin-top: 10px;
+    border: 1px solid #2680EB;
+    background: #2680EB;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
   }
   .bg6 .selengka {
-    margin-left: -475px;
-    margin-bottom: 100px !important;
+    margin-top: 820px;
+    margin-left: 350px !important;
+    width: 136.3px;
+    height: 37.58px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-left: -605px;
+    cursor: pointer;
+    float: left;
+  }
+  .popup-active {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    display: inline;
+  }
+  .popup-active svg {
+    width: 40px;
+    fill: white;
+    float: right;
+    margin-right: 220px;
+    margin-top: 165px;
+    cursor: pointer;
+  }
+  .popup-active video {
+    margin-top: 200px;
+    margin-left: 250px;
+    width: 50%;
   }
 }
 
@@ -928,6 +1119,9 @@ a {
     margin-left: -196px;
     margin-top: 510px !important;
   }
+  .bg6 {
+    margin-bottom: 750px;
+  }
   .bg6 h3 {
     margin-left: -55px;
     margin-top: 175px;
@@ -935,27 +1129,127 @@ a {
   .bg6 .kk {
     margin-left: -53px;
   }
-  .bg6 .bulat {
-    margin-left: 105px;
+  .bg6 .awal {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: -60px;
   }
-  .bg6 .left {
-    width: 46%;
-    margin-left: -50px;
+  .bg6 .awal img {
+    float: left;
+    width: 43%;
+    height: auto;
   }
-  .bg6 .center {
-    width: 46%;
+  .bg6 .awal h3 {
+    float: left;
+    width: 43%;
+    margin-top: 210px;
+    margin-left: -305px;
+    font-size: 16px;
   }
-  .bg6 .ard {
-    margin-top: -10px;
-    margin-left: 25px;
+  .bg6 .awal .isi {
+    float: left;
+    font-size: 13px;
+    width: 42.5%;
+    line-height: 25px;
+    margin-left: -305px;
+    text-align: justify;
+    margin-top: 250px;
   }
-  .bg6 .ar {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    margin-left: 69px;
+  .bg6 .awal .sum {
+    float: left;
+    margin-left: -305px;
+    margin-top: 480px;
+    font-size: 12px;
+    width: 55%;
+  }
+  .bg6 .awal .seleng4 {
+    float: left;
+    margin-left: -305px;
+    width: 136.3px;
+    height: 37.58px;
+    margin-top: 510px;
+    border: 1px solid #2680EB;
+    background: #2680EB;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .bg6 .tengah {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: -60px;
+  }
+  .bg6 .tengah img {
+    float: right;
+    margin-right: 70px;
+    width: 43%;
+  }
+  .bg6 .tengah h3 {
+    float: right;
+    width: 43%;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 70px;
+  }
+  .bg6 .tengah .isi {
+    float: right;
+    font-size: 13px;
+    width: 43%;
+    line-height: 25px;
+    margin-right: 70px;
+    text-align: justify;
+    margin-top: -5px;
+  }
+  .bg6 .tengah .sum {
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 43%;
+  }
+  .bg6 .tengah .seleng4 {
+    float: right;
+    margin-left: 410px;
+    width: 136.3px;
+    height: 37.58px;
+    margin-top: 53px;
+    border: 1px solid #2680EB;
+    background: #2680EB;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .bg6 .akhir {
+    display: none;
   }
   .bg6 .selengka {
-    margin-left: -408px;
+    margin-left: 185px !important;
+    margin-top: 650px;
+    margin-bottom: 10px;
+  }
+  .popup-active {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    display: inline;
+  }
+  .popup-active svg {
+    width: 40px;
+    fill: white;
+    float: right;
+    margin-right: 170px;
+    margin-top: 165px;
+    cursor: pointer;
+  }
+  .popup-active video {
+    margin-top: 0px;
+    margin-left: 200px;
+    width: 50%;
   }
 }
 
@@ -1052,6 +1346,7 @@ a {
   }
   .bg4 .thv img {
     width: 120px;
+    height: 118.5px;
   }
   .bg4 .thv .h5 {
     width: 55%;
@@ -1118,19 +1413,125 @@ a {
   .bg6 {
     margin-left: 90px;
     margin-top: -150px !important;
-    margin-bottom: 1000px;
+    margin-bottom: 1350px;
   }
-  .bg6 .left {
-    width: 105%;
+  .bg6 .awal {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: -60px;
   }
-  .bg6 .center {
+  .bg6 .awal img {
     float: left;
-    margin-left: -50px;
-    margin-top: 60px;
-    width: 105%;
+    width: 90%;
+    height: auto;
+  }
+  .bg6 .awal h3 {
+    float: left;
+    width: 100%;
+    margin-top: 210px;
+    margin-left: -305px;
+    font-size: 16px;
+  }
+  .bg6 .awal .isi {
+    float: left;
+    font-size: 13px;
+    width: 92%;
+    line-height: 25px;
+    margin-left: -5px;
+    text-align: justify;
+    margin-top: 0px;
+  }
+  .bg6 .awal .sum {
+    float: left;
+    margin-left: -305px;
+    margin-top: 210px;
+    font-size: 12px;
+    width: 55%;
+  }
+  .bg6 .awal .seleng4 {
+    float: left;
+    margin-left: -240px;
+    width: 136.3px;
+    height: 37.58px;
+    margin-top: 510px;
+    border: 1px solid #2680EB;
+    background: #2680EB;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .bg6 .tengah {
+    float: left;
+    position: absolute;
+    margin-left: -335px;
+    margin-top: 630px !important;
+  }
+  .bg6 .tengah img {
+    float: left;
+    margin-left: 275px;
+    width: 297px;
+  }
+  .bg6 .tengah h3 {
+    float: left;
+    width: 330px;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 265px;
+  }
+  .bg6 .tengah .isi {
+    float: left;
+    font-size: 13px;
+    width: 303.59px;
+    line-height: 25px;
+    margin-left: 275px;
+    text-align: justify;
+    margin-top: -5px;
+  }
+  .bg6 .tengah .sum {
+    float: right;
+    margin-right: 104px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 43%;
+  }
+  .bg6 .tengah .seleng4 {
+    float: right;
+    margin-left: 365px;
+    width: 136.3px;
+    height: 37.58px;
+    margin-top: 53px;
+    border: 1px solid #2680EB;
+    background: #2680EB;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
   }
   .bg6 .selengka {
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 30px !important;
+    margin-top: 1220px !important;
+  }
+  .popup-active {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    display: inline;
+  }
+  .popup-active svg {
+    width: 20px;
+    fill: white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 165px;
+    cursor: pointer;
+  }
+  .popup-active video {
+    margin-top: -35px;
+    margin-left: 37px;
+    width: 80%;
+    height: 200px;
   }
 }

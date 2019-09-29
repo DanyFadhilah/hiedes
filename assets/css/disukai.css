@@ -1,0 +1,30 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Regular;
+  background-color: #f8f8f8;
+}
+
+a {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bagian1 {
+  height: 100vh;
+}
+
+.bagian2 {
+  text-align: center;
+  margin-top: -300px;
+  margin-bottom: 250px;
+  color: #7D7D7D;
+  font-size: 25px;
+}
