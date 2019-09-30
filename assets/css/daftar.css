@@ -22,13 +22,19 @@ a {
   src: url("../font/WorkSans-Regular.ttf");
 }
 
+svg {
+  width: 30px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
 }
 
 .wrapp {
-  margin-top: 67px;
+  margin-top: 3px;
 }
 
 .wrapp h2 {
@@ -275,6 +281,11 @@ img {
 }
 
 @media screen and (max-width: 360px) {
+  svg {
+    width: 30px;
+    margin-top: 25px;
+    margin-left: 300px;
+  }
   .wrapp {
     margin-left: 20px;
   }

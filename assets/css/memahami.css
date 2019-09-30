@@ -74,18 +74,18 @@ a {
 }
 
 .berita .share {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   float: left;
   margin-top: -24px;
-  margin-left: 4px;
+  margin-left: 60px;
   cursor: pointer;
 }
 
 .div2 {
   margin-top: -970px;
   margin-left: 700px;
-  margin-bottom: 370px;
+  margin-bottom: 250px;
   font-size: 23px;
 }
 
@@ -97,7 +97,7 @@ a {
 .div2 .kanan {
   float: right;
   clear: both;
-  margin-top: -980px;
+  margin-top: -950px;
   margin-right: 100px;
 }
 
@@ -422,9 +422,54 @@ svg.actived path {
     width: 95%;
     height: auto;
   }
+  .berita .la2 {
+    width: 95.5%;
+  }
   .div2 .kanan {
-    margin-top: -1760px;
-    margin-right: 50px;
+    display: none;
+  }
+  .div2 .bagian3 .hidekomen {
+    width: 90%;
+    height: 120px;
+  }
+  .div2 .bagian3 .hidekomen #date {
+    margin-left: 700px;
+    margin-top: -50px;
+  }
+  .div2 .bagian3 .hidekomen #balas {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .div2 .bagian3 .hidekomen #like {
+    margin-top: 5px;
+    margin-left: 129px;
+  }
+  .div2 .bagian3 .hidekomen #komen {
+    width: 60%;
+    margin-left: 10px;
+  }
+  .div2 .bagian3 .hidekomen1 {
+    width: 90%;
+    height: 120px;
+  }
+  .div2 .bagian3 .hidekomen1 #date {
+    margin-left: 700px;
+    margin-top: -50px;
+  }
+  .div2 .bagian3 .hidekomen1 #balas {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  .div2 .bagian3 .hidekomen1 #like {
+    margin-top: 5px;
+    margin-left: 129px;
+  }
+  .div2 .bagian3 .hidekomen1 #komen {
+    width: 60%;
+    margin-left: 10px;
+  }
+  .div2 .bagian3 .komen {
+    width: 88%;
   }
 }
 
@@ -447,10 +492,22 @@ svg.actived path {
     margin-left: -5px;
   }
   .berita .share {
-    margin-left: 5px;
+    margin-left: 60px;
   }
   .div2 .kanan {
     margin-right: 20px;
+  }
+  .div2 .bagian3 {
+    margin-left: -705px;
+  }
+  .div2 .bagian3 .hidekomen {
+    width: 88%;
+  }
+  .div2 .bagian3 .hidekomen1 {
+    width: 88%;
+  }
+  .div2 .bagian3 .komen {
+    width: 85%;
   }
 }
 
@@ -498,5 +555,61 @@ svg.actived path {
   }
   .berita .la2 {
     margin-left: -19px;
+  }
+  .div2 {
+    margin-bottom: 250px;
+  }
+  .div2 .bagian3 {
+    margin-left: -720px;
+  }
+  .div2 .bagian3 .hidekomen {
+    width: 41%;
+    height: 200px;
+  }
+  .div2 .bagian3 .hidekomen #user {
+    margin-top: 0px;
+  }
+  .div2 .bagian3 .hidekomen #date {
+    display: none;
+  }
+  .div2 .bagian3 .hidekomen #like {
+    margin-left: 65px;
+    margin-top: -5px;
+  }
+  .div2 .bagian3 .hidekomen #balas {
+    margin-top: -5px;
+  }
+  .div2 .bagian3 .hidekomen #komen {
+    margin-top: -5px;
+    width: 70%;
+    text-align: left;
+  }
+  .div2 .bagian3 .hidekomen1 {
+    width: 41%;
+    height: 200px;
+  }
+  .div2 .bagian3 .hidekomen1 #user {
+    margin-top: 0px;
+  }
+  .div2 .bagian3 .hidekomen1 #date {
+    display: none;
+  }
+  .div2 .bagian3 .hidekomen1 #like {
+    margin-left: 65px;
+    margin-top: -5px;
+  }
+  .div2 .bagian3 .hidekomen1 #balas1 {
+    margin-left: 20px;
+    margin-top: -5px;
+  }
+  .div2 .bagian3 .hidekomen1 #komen {
+    margin-top: -5px;
+    width: 70%;
+    text-align: left;
+  }
+  .div2 .bagian3 .komen {
+    width: 38%;
+    margin-top: 250px;
+    margin-left: -300px;
   }
 }

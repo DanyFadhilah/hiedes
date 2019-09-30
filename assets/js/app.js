@@ -8,7 +8,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('#nav-open').click(function(){
 		$(this).toggleClass('open');
-		$('.menu-hide').toggleClass('menu-hide-active');
+		$('.menu-hide1').toggleClass('menu-hide1-active');
 	});
 });
 

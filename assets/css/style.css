@@ -48,7 +48,7 @@ header #ikon {
   float: left;
   position: absolute;
   margin-left: -300px;
-  margin-top: -34px;
+  margin-top: -50px;
 }
 
 header .navbar {
@@ -238,7 +238,7 @@ header .masuk:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-left: 666px;
-  margin-top: 0px;
+  margin-top: -15px;
 }
 
 .menu-hiden img {
@@ -260,7 +260,7 @@ header .masuk:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
-  margin-top: 0px;
+  margin-top: -15px;
 }
 
 .menu-hiden-active img {
@@ -278,8 +278,7 @@ footer {
 
 footer img {
   float: left;
-  margin-left: 40px;
-  margin-right: -420px;
+  margin-left: -1130px;
   margin-top: 100px;
   width: 150px;
 }
@@ -343,7 +342,7 @@ footer a {
     margin-left: 250px;
   }
   header #ikon {
-    margin-top: -30px;
+    margin-top: -45px;
     margin-left: -215px;
     width: 160px;
   }
@@ -359,7 +358,7 @@ footer a {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     margin-left: 575px;
-    margin-top: -5px;
+    margin-top: -20px;
     position: absolute;
   }
   header .menu-hiden img {
@@ -375,6 +374,7 @@ footer a {
   }
   header .menu-hiden-active {
     height: 30px;
+    margin-top: -20px;
     margin-left: 575px;
     margin-right: 100px;
     position: absolute;
@@ -398,6 +398,9 @@ footer a {
   header .bendera {
     margin-left: 10px;
     margin-top: 25px;
+  }
+  footer img {
+    margin-left: -940px;
   }
   footer .kiri1 {
     float: left;
@@ -435,7 +438,7 @@ footer a {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     margin-left: 434px;
-    margin-top: -5px;
+    margin-top: -18px;
     position: absolute;
   }
   header .menu-hiden img {
@@ -451,6 +454,7 @@ footer a {
   }
   header .menu-hiden-active {
     height: 30px;
+    margin-top: -18px;
     margin-left: 434px;
     margin-right: 100px;
     position: absolute;
@@ -499,16 +503,23 @@ footer a {
   }
   header #ikon {
     margin-left: -135px;
-    margin-top: -25px;
+    margin-top: -35px;
     width: 120px;
   }
   footer {
     height: 320px;
   }
+  footer img {
+    margin-left: 38px;
+    margin-top: 50px;
+  }
+  footer #tujuan {
+    margin-top: 80px;
+  }
   footer .kiri1 {
     width: 100%;
     float: left;
-    margin-top: 50px;
+    margin-top: -35px;
     margin-left: 300px;
   }
   footer .kiri {
@@ -536,7 +547,7 @@ footer a {
     display: inline;
     position: absolute;
     margin-left: -30px;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 150px;
   }
   header #nav-icon1 {
@@ -614,7 +625,7 @@ footer a {
   }
   footer .kiri1 {
     margin-left: 40px;
-    margin-top: 200px;
+    margin-top: 110px;
   }
   footer .kiri {
     margin-left: 40px;

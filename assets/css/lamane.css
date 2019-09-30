@@ -215,7 +215,7 @@ a {
   transform: rotate(0deg);
 }
 
-.menu-hide {
+.menu-hide1 {
   width: 100%;
   height: 0;
   overflow: hidden;
@@ -223,38 +223,38 @@ a {
   transition: 1s;
 }
 
-.menu-hide h3 {
+.menu-hide1 h3 {
   font-size: 32px;
   margin-bottom: 15px;
 }
 
-.menu-hide h4 {
+.menu-hide1 h4 {
   font-size: 22px;
   margin-top: 20px;
 }
 
-.menu-hide p {
+.menu-hide1 p {
   font-size: 15px;
   color: #777777;
   line-height: 23px;
 }
 
-.menu-hide .one {
+.menu-hide1 .one {
   margin-top: 50px;
   margin-right: 20px;
   float: left;
   width: 32%;
 }
 
-.menu-hide .one img {
+.menu-hide1 .one img {
   width: 100%;
 }
 
-.menu-hide .one p {
+.menu-hide1 .one p {
   text-align: justify;
 }
 
-.menu-hide .one:hover {
+.menu-hide1 .one:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: scale(1.05);
@@ -262,7 +262,7 @@ a {
   transform: scale(1.05);
 }
 
-.menu-hide .two:hover {
+.menu-hide1 .two:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: scale(1.05);
@@ -270,7 +270,7 @@ a {
   transform: scale(1.05);
 }
 
-.menu-hide .three:hover {
+.menu-hide1 .three:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: scale(1.05);
@@ -278,36 +278,36 @@ a {
   transform: scale(1.05);
 }
 
-.menu-hide .two {
+.menu-hide1 .two {
   margin-top: 50px;
   margin-right: 20px;
   float: left;
   width: 32%;
 }
 
-.menu-hide .two img {
+.menu-hide1 .two img {
   width: 100%;
 }
 
-.menu-hide .two p {
+.menu-hide1 .two p {
   text-align: justify;
 }
 
-.menu-hide .three {
+.menu-hide1 .three {
   float: left;
   margin-top: 50px;
   width: 32%;
 }
 
-.menu-hide .three img {
+.menu-hide1 .three img {
   width: 100%;
 }
 
-.menu-hide .three p {
+.menu-hide1 .three p {
   text-align: justify;
 }
 
-.menu-hide .seleng {
+.menu-hide1 .seleng {
   width: 136.3px;
   height: 37.58px;
   background: #2680EB;
@@ -318,11 +318,272 @@ a {
   cursor: pointer;
 }
 
-.menu-hide-active {
+.menu-hide1-active {
   height: 2200px;
   margin-left: 0px;
   margin-top: -439px !important;
   -webkit-transition: 1s;
   transition: 1s;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+  .sear {
+    margin-bottom: 0px;
+    margin-left: 35px;
+  }
+  .sear .ari {
+    margin-left: 550px;
+  }
+  .sear #nan {
+    margin-left: 875px;
+  }
+  .bagian1 {
+    margin-left: 35px;
+  }
+  .bagian1 .one {
+    width: 47%;
+  }
+  .bagian1 .two {
+    width: 47%;
+  }
+  .bagian1 .three {
+    width: 47%;
+  }
+  .bagian1 #four {
+    width: 47%;
+    margin-left: 20px;
+  }
+  .bagian1 #five {
+    width: 47%;
+    margin-left: -465px;
+  }
+  .bagian1 #non {
+    display: none;
+  }
+  #nav-open svg {
+    margin-left: -125px;
+  }
+  .menu-hide1 {
+    margin-left: 35px;
+  }
+  .menu-hide1 .one {
+    width: 464.83px;
+  }
+  .menu-hide1 .two {
+    width: 464.83px;
+  }
+  .menu-hide1 #lef {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .menu-hide1 #rig {
+    margin-left: 20px;
+  }
+  .menu-hide1 .three {
+    width: 464.83px;
+  }
+  .menu-hide1 #four {
+    width: 464.83px;
+    margin-left: 20px;
+  }
+  .menu-hide1 #five {
+    display: none;
+    width: 464.83px;
+    margin-left: -465px;
+  }
+  .menu-hide1 #non {
+    display: none;
+  }
+  .menu-hide1-active {
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+  .sear {
+    margin-bottom: 0px;
+    margin-left: 35px;
+  }
+  .sear .ari {
+    margin-left: 400px;
+    width: 30%;
+    font-size: 15px;
+  }
+  .sear #nan {
+    margin-left: 630px;
+  }
+  .bagian1 {
+    margin-left: 35px;
+  }
+  .bagian1 .one {
+    width: 47%;
+  }
+  .bagian1 .two {
+    width: 47%;
+  }
+  .bagian1 .three {
+    width: 47%;
+  }
+  .bagian1 #four {
+    width: 47%;
+    margin-left: 20px;
+  }
+  .bagian1 #no {
+    display: none;
+  }
+  .bagian1 #pad {
+    margin-left: 20px;
+  }
+  .bagian1 #mo {
+    float: left;
+    margin-top: 562px;
+    margin-left: -731px;
+  }
+  .bagian1 #five {
+    display: none;
+  }
+  .bagian1 #non {
+    display: none;
+  }
+  #nav-open svg {
+    margin-left: -248px;
+  }
+  .menu-hide1 {
+    margin-left: 35px;
+  }
+  .menu-hide1 .one {
+    width: 344.5px;
+  }
+  .menu-hide1 .two {
+    width: 344.5px;
+  }
+  .menu-hide1 #lef {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .menu-hide1 #rig {
+    margin-left: 20px;
+  }
+  .menu-hide1 .three {
+    width: 344.5px;
+    float: left;
+    margin-top: 562px;
+    margin-left: -731px;
+  }
+  .menu-hide1 #four {
+    width: 344.5px;
+    margin-left: 0px;
+  }
+  .menu-hide1 #five {
+    display: none;
+    width: 344.5px;
+    margin-left: -465px;
+  }
+  .menu-hide1 #non {
+    display: none;
+  }
+  .menu-hide1-active {
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    max-width: 300px;
+  }
+  .sear {
+    margin-bottom: 0px;
+    margin-left: 35px;
+  }
+  .sear h2 {
+    font-size: 22px;
+  }
+  .sear .ari {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 60%;
+    font-size: 15px;
+  }
+  .sear #nan {
+    margin-left: 215px;
+    margin-top: 5px;
+  }
+  .bagian1 {
+    margin-left: 35px;
+  }
+  .bagian1 .one {
+    width: 90%;
+  }
+  .bagian1 .two {
+    width: 90%;
+  }
+  .bagian1 .three {
+    width: 90%;
+  }
+  .bagian1 #four {
+    width: 90%;
+    margin-left: 0px;
+  }
+  .bagian1 #no {
+    display: none;
+  }
+  .bagian1 #pad {
+    margin-left: 0px;
+  }
+  .bagian1 #mo {
+    display: none;
+  }
+  .bagian1 #five {
+    display: none;
+  }
+  .bagian1 #non {
+    display: none;
+  }
+  #nav-open svg {
+    margin-left: -450px;
+  }
+  .menu-hide1 {
+    margin-left: 35px;
+  }
+  .menu-hide1 .one {
+    width: 292.5px;
+  }
+  .menu-hide1 .two {
+    width: 292.5px;
+  }
+  .menu-hide1 #lef {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .menu-hide1 #rig {
+    margin-left: 20px;
+  }
+  .menu-hide1 .three {
+    width: 292.5px;
+    float: left;
+    margin-top: 562px;
+    margin-left: -731px;
+  }
+  .menu-hide1 #four {
+    width: 292.5px;
+    margin-left: 0px;
+  }
+  .menu-hide1 #five {
+    display: none;
+    width: 292.5px;
+    margin-left: -465px;
+  }
+  .menu-hide1 #non {
+    display: none;
+  }
+  .menu-hide1-active {
+    height: 1580px;
+  }
 }
