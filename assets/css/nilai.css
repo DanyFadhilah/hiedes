@@ -21,36 +21,24 @@ a {
   margin-left: 55px;
 }
 
-.laman h3 {
+.laman .h3 {
   font-size: 32px;
-  margin-bottom: 15px;
+  margin-left: 0px;
+  font-family: sf;
 }
 
 .laman p {
   margin-top: 40px;
-  font-size: 15px;
-  line-height: 23px;
-  text-align: justify;
+  font-size: 17px;
+  line-height: 40px;
+  width: 814px;
+  margin-left: 145px;
 }
 
 .laman img {
-  float: right;
-  margin-top: -882px;
-  margin-right: 60px;
-  width: 536px;
-  height: 426px;
-}
-
-.laman .la1 {
-  line-height: 23px;
-  text-align: justify;
-  width: 45%;
-}
-
-.laman .la2 {
-  line-height: 23px;
-  text-align: justify;
-  width: 95%;
+  margin-top: 30px;
+  width: 814px;
+  margin-left: 145px;
 }
 
 .bg2 {

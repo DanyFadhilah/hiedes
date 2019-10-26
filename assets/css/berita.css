@@ -44,27 +44,6 @@ a {
   margin-top: 50px !important;
 }
 
-.bagian1 .ari {
-  width: 326px;
-  height: 45px;
-  font-size: 16px;
-  border-radius: 5px;
-  margin-right: 80px;
-  border: none;
-  float: right;
-  margin-top: 40px;
-  background: white;
-  padding-left: 20px;
-}
-
-.bagian1 #nan {
-  float: right;
-  margin-top: -60px;
-  margin-left: 1120px;
-  height: 45px;
-  cursor: pointer;
-}
-
 .bagian1 a {
   text-decoration: none;
   color: #2680EB;
@@ -77,6 +56,14 @@ a {
 
 .bagian2 {
   margin-bottom: 1100px;
+}
+
+.bagian2 .berita:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 40px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
 }
 
 .bagian2 .berita {
@@ -112,6 +99,12 @@ a {
   border-radius: 5px;
   font-size: 12px;
   margin-top: 14px;
+}
+
+.bagian2 .basel:hover {
+  opacity: 0.4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .bagian2 .berita2 {
@@ -294,6 +287,30 @@ a {
   margin-top: 14px;
 }
 
+.bagian2 .berita6 .berita:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+}
+
+.bagian2 .berita6 .berita2:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+}
+
+.bagian2 .berita6 .berita3:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+}
+
 .basel {
   cursor: pointer;
 }
@@ -393,17 +410,6 @@ a {
   .bagian1 {
     margin-left: 35px;
   }
-  .bagian1 .ari {
-    float: left;
-    margin-top: -40px;
-    margin-left: 540px;
-  }
-  .bagian1 #nan {
-    position: absolute;
-    margin-top: -36px;
-    float: left;
-    margin-left: 580px;
-  }
   .bagian2 {
     margin-left: 35px;
   }
@@ -444,18 +450,6 @@ a {
   }
   .bagian1 {
     margin-left: 35px;
-  }
-  .bagian1 .ari {
-    float: left;
-    margin-top: -40px;
-    margin-left: 420px;
-    width: 30%;
-  }
-  .bagian1 #nan {
-    position: absolute;
-    margin-top: -36px;
-    float: left;
-    margin-left: 353px;
   }
   .bagian2 {
     margin-left: 35px;
@@ -508,18 +502,6 @@ a {
   .bagian1 h4 {
     font-size: 15px;
     margin-left: 10px;
-  }
-  .bagian1 .ari {
-    float: left;
-    margin-top: 20px;
-    margin-left: 0px;
-    width: 68.5%;
-  }
-  .bagian1 #nan {
-    position: absolute;
-    margin-top: 24px;
-    float: left;
-    margin-left: -70px;
   }
   .bagian2 {
     margin-left: 35px;

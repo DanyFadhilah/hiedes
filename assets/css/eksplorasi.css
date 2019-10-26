@@ -1,0 +1,70 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+a {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.container .bagian1 {
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.container h3 {
+  color: #415ED8;
+  font-size: 42px;
+}
+
+.container .tes {
+  margin: 0 auto;
+  width: 75%;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 40.3px;
+  color: #A0A0A0;
+}
+
+.container #kep {
+  width: 300px;
+  margin-top: 27px;
+}
+
+.container .sel {
+  width: 136.3px;
+  height: 37.58px;
+  background: #415ED8;
+  border-radius: 5px;
+  border: 1px solid #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.container .sel:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: white;
+  color: #415ED8;
+  border: 1px solid #415ED8;
+}
+
+.container .bagian2 {
+  margin-top: -100px;
+}

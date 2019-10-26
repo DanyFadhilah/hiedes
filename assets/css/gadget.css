@@ -18,44 +18,32 @@ a {
 
 .laman {
   margin-top: 100px;
-  margin-left: 55px;
 }
 
 .laman h3 {
+  font-family: sf;
   font-size: 32px;
   margin-bottom: 15px;
+  margin-left: 0px;
+  margin-top: 120px;
 }
 
 .laman p {
+  margin-left: 240px;
   margin-top: 40px;
-  font-size: 15px;
-  line-height: 23px;
-  text-align: justify;
+  font-size: 17px;
+  line-height: 40px;
+  width: 714px;
 }
 
 .laman img {
-  float: right;
-  margin-top: -792px;
-  margin-right: 60px;
-  width: 536px;
-  height: 426px;
-}
-
-.laman .la1 {
-  line-height: 23px;
-  text-align: justify;
-  width: 45%;
-}
-
-.laman .la2 {
-  line-height: 23px;
-  text-align: justify;
-  width: 95%;
+  margin-left: 240px;
+  margin-top: 50px;
+  width: 714px;
 }
 
 .bg2 {
   margin-top: -50px;
-  margin-left: 65px;
   margin-bottom: 1200px;
 }
 
@@ -77,9 +65,9 @@ a {
 
 .bg2 h2 {
   font-size: 38px;
-  text-align: center;
   margin-top: 200px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  font-family: sf;
 }
 
 .bg2 h4 {
@@ -91,95 +79,256 @@ a {
   line-height: 23px;
   color: #777777;
   font-size: 15px;
-  text-align: justify;
 }
 
 .bg2 .one {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-right: 20px;
+  border-radius: 3px;
   float: left;
-  width: 30%;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg2 .one img {
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg2 .one h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bg2 .one p {
+  margin-left: 20px;
+}
+
+.bg2 .one .seleng {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bg2 .one a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg2 .two {
+  margin-top: 40px;
+  float: left;
+  margin-right: 20px;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg2 .two img {
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg2 .two h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bg2 .two p {
+  margin-left: 20px;
+}
+
+.bg2 .two .seleng {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bg2 .two a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg2 .three {
+  float: left;
+  margin-top: 40px;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg2 .three img {
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg2 .three h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bg2 .three p {
+  margin-left: 20px;
+  width: 90%;
+}
+
+.bg2 .three .seleng {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bg2 .three a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg2 .four {
+  margin-top: 40px;
+  margin-right: 20px;
+  border-radius: 3px;
+  float: left;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: -399px;
+}
+
+.bg2 .four img {
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg2 .four h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bg2 .four p {
+  margin-left: 20px;
+}
+
+.bg2 .four .seleng {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bg2 .four a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg2 .five {
+  margin-top: 40px;
+  float: left;
+  margin-right: 20px;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg2 .five img {
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg2 .five h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bg2 .five p {
+  margin-left: 20px;
+}
+
+.bg2 .five .seleng {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bg2 .five a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg2 .six {
+  float: left;
+  margin-top: 40px;
+  margin-left: -1px;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bg2 .six img {
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg2 .six h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bg2 .six p {
+  margin-left: 20px;
+  width: 90%;
+}
+
+.bg2 .six .seleng {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bg2 .six a {
+  text-decoration: none;
+  color: #000;
 }
 
 .bg2 .one:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.bg2 .two {
-  margin-top: 50px;
-  margin-right: 20px;
-  float: left;
-  width: 30%;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
 }
 
 .bg2 .two:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.bg2 .three {
-  margin-top: 50px;
-  float: left;
-  width: 30%;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
 }
 
 .bg2 .three:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.bg2 .four {
-  margin-top: 50px;
-  margin-right: 20px;
-  float: left;
-  width: 30%;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
 }
 
 .bg2 .four:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.bg2 .five {
-  margin-top: 50px;
-  margin-right: 20px;
-  float: left;
-  width: 30%;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
 }
 
 .bg2 .five:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.bg2 .six {
-  margin-top: 50px;
-  float: left;
-  width: 30%;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
 }
 
 .bg2 .six:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
 }
 
 .bg2 .seleng {
@@ -191,6 +340,12 @@ a {
   color: white;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.bg2 .seleng:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,0 +1,209 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #f8f8f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("../font/WorkSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: work-bold;
+  src: url("../font/WorkSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: sf-r;
+  src: url("../font/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: sf;
+  src: url("../font/FontsFree-Net-SFProDisplay-Light.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../font/Montserrat-Bold.otf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../font/Montserrat-Regular.otf");
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.left_side img {
+  width: 50%;
+  height: 100vh;
+  position: fixed;
+  -o-object-fit: cover;
+  object-fit: cover;
+  float: left;
+  background: blue;
+}
+
+.top {
+  margin-top: -500px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.aktif {
+  opacity: 1 !important;
+  margin-top: 150px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif1 {
+  opacity: 1 !important;
+  margin-top: 200px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif2 {
+  opacity: 1 !important;
+  margin-top: 290px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif3 {
+  opacity: 1 !important;
+  margin-top: 350px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif4 {
+  opacity: 1 !important;
+  margin-top: 470px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif5 {
+  opacity: 1 !important;
+  margin-top: 590px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif6 {
+  opacity: 1 !important;
+  margin-top: 640px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif7 {
+  opacity: 1 !important;
+  margin-top: 720px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif8 {
+  opacity: 1 !important;
+  margin-top: 790px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.aktif9 {
+  opacity: 1 !important;
+  margin-top: 820px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.right_side {
+  float: right;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 100px;
+  margin-top: 80px;
+  position: fixed;
+  right: 0;
+}
+
+.right_side h1 {
+  margin-bottom: 20px;
+  font-family: Montserrat-Regular;
+}
+
+.right_side label {
+  font-family: Montserrat-Regular;
+  display: block;
+  padding: 10px;
+}
+
+.right_side button {
+  font-family: Montserrat-Bold;
+  width: 300px;
+  height: 50px;
+  background: orange;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin: 50px;
+  cursor: pointer;
+}
+
+.q1 {
+  opacity: 0.4;
+}
+
+.q2 {
+  opacity: 0.4;
+}
+
+.q3 {
+  opacity: 0.4;
+}
+
+.q4 {
+  opacity: 0.4;
+}
+
+.q5 {
+  opacity: 0.4;
+}
+
+.q6 {
+  opacity: 0.4;
+}
+
+.q7 {
+  opacity: 0.4;
+}
+
+.q8 {
+  opacity: 0.4;
+}
+
+.q9 {
+  opacity: 0.4;
+}
+
+.q[disabled] {
+  opacity: 0.3;
+  margin-top: -1200px;
+}

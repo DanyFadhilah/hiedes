@@ -26,9 +26,57 @@ a {
   src: url("../font/WorkSans-Bold.ttf");
 }
 
-.active {
+@font-face {
+  font-family: sf-r;
+  src: url("../font/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: sf;
+  src: url("../font/FontsFree-Net-SFProDisplay-Light.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../font/Montserrat-Bold.otf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../font/Montserrat-Regular.otf");
+}
+
+.active.scroll {
   padding-bottom: 4px;
   border-bottom: 2px solid white;
+}
+
+.active {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #000;
+}
+
+header.scroll {
+  background: #0A3D3F;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  color: white;
+}
+
+header.scroll a {
+  color: white;
+}
+
+header.scroll .masuk {
+  border: 1px solid white;
+  color: white;
+}
+
+header.scroll a:hover {
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .container {
@@ -37,22 +85,22 @@ a {
 }
 
 header {
-  color: white;
+  color: #000;
   position: fixed;
   font-size: 15px semibold;
   width: 100%;
-  z-index: +100000;
+  z-index: +1;
 }
 
 header #ikon {
   float: left;
   position: absolute;
-  margin-left: -300px;
-  margin-top: -50px;
+  margin-left: -280px;
+  margin-top: 2px;
+  width: 130px;
 }
 
 header .navbar {
-  background: #2680EB;
   width: 100%;
   height: 65px;
 }
@@ -161,23 +209,29 @@ header .menu-hide .login a {
 header ul {
   list-style: none;
   margin: 0;
-  margin-left: 350px;
+  margin-left: 335px;
+  float: left;
+  font-family: sf-r;
 }
 
 header li {
   float: left;
-  padding-left: 35px;
+  padding-left: 30px;
   margin-top: 20px;
 }
 
 header a {
   text-decoration: none;
-  color: white;
+  color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 header a:hover {
   padding-bottom: 4px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #000;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 header .none:hover {
@@ -187,13 +241,14 @@ header .none:hover {
 
 header .bendera {
   width: 22px;
-  margin-top: 21px;
-  margin-left: 27px;
+  margin-top: 64px;
+  margin-left: 670px;
   cursor: pointer;
+  position: absolute;
 }
 
 header .ind {
-  margin-top: -24.5px;
+  margin-top: -23px;
   margin-left: 695px;
   float: left;
   cursor: pointer;
@@ -208,20 +263,21 @@ header .panah {
 
 header .masuk {
   border-radius: 5px;
-  border: 1px solid white;
+  border: 1px solid #000;
   background: none;
   width: 86px;
   height: 35px;
-  color: white;
+  color: #000;
   float: left;
-  margin-top: -45px;
-  margin-left: 739px;
+  margin-left: 85px;
   cursor: pointer;
+  position: absolute;
 }
 
 header .masuk:hover {
-  background-color: #2680EB;
+  background-color: white;
   border: 1px solid #2680EB;
+  color: #2680EB;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -231,14 +287,14 @@ header .masuk:hover {
 }
 
 .menu-hiden {
-  width: 7%;
-  height: 0;
+  width: 8%;
+  height: 0px;
   overflow: hidden;
   background: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-left: 666px;
-  margin-top: -15px;
+  margin-top: -7px;
 }
 
 .menu-hiden img {
@@ -260,7 +316,7 @@ header .masuk:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
-  margin-top: -15px;
+  margin-top: -7px;
 }
 
 .menu-hiden-active img {
@@ -271,15 +327,15 @@ header .masuk:hover {
 footer {
   height: 200px;
   color: white;
-  background: #2680EB;
+  background: #0A3D3F;
   width: 100%;
   height: 329px;
 }
 
 footer img {
   float: left;
-  margin-left: -1130px;
-  margin-top: 100px;
+  margin-left: -1175px;
+  margin-top: 60px;
   width: 150px;
 }
 
@@ -288,7 +344,7 @@ footer #tujuan {
   font-size: 14px;
   text-align: justify;
   margin-left: 40px;
-  margin-top: 130px;
+  margin-top: 150px;
   margin-right: -400px;
   float: left;
 }

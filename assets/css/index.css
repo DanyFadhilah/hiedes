@@ -68,15 +68,68 @@ a {
   width: 50%;
 }
 
+.popup-isi-img {
+  display: none;
+}
+
+.popup-img-non .popup-img-aktif {
+  display: none;
+}
+
+.popup-img-non svg {
+  display: none;
+  width: 40px;
+  fill: white;
+  float: right;
+  margin-right: 270px;
+  margin-top: 165px;
+  cursor: pointer;
+}
+
+.popup-img-non img {
+  display: none;
+}
+
+.popup-img-aktif {
+  display: inline;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.popup-img-aktif .popup-isi-img {
+  display: inline;
+}
+
+.popup-img-aktif svg {
+  width: 40px;
+  fill: white;
+  float: right;
+  margin-right: 300px;
+  margin-top: 135px;
+  cursor: pointer;
+  display: inline;
+}
+
+.popup-img-aktif img {
+  margin-left: 400px;
+  margin-top: 160px;
+  width: 45%;
+  display: inline;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .bg1 {
-  background-image: url("../image/Group71.jpg");
-  margin-top: -175px;
-  height: 800px;
+  background-image: url("../image/s.jpg");
+  margin-top: -220px;
+  height: 850px;
   width: 1500px;
   clear: both;
   background-size: cover;
@@ -84,121 +137,218 @@ a {
 }
 
 .bg2 {
-  margin-top: -420px;
-  margin-bottom: 250px;
+  margin-top: -450px;
+  margin-bottom: 300px;
 }
 
-.bg2 h4 {
-  color: white;
-  font-size: 40px;
+.bg2 .h4 {
+  font-size: 70px;
+  font-family: sf;
   margin-left: 110px;
+  color: #000;
 }
 
 .bg2 p {
-  width: 46%;
-  text-align: justify;
-  color: white;
-  font-size: 18px;
+  width: 25%;
+  font-size: 22px;
   margin-left: 110px;
-  line-height: 27px;
+  font-family: sf;
+  line-height: 40px;
+  color: #000;
 }
 
 .bg2 .basel {
   width: 168px;
   height: 53px;
-  background-color: #2680EB;
+  background-color: #415ED8;
   border-radius: 5px;
   color: white;
-  border: 1px solid #2680EB;
+  border: 1px;
   margin-top: 40px;
   margin-left: 110px;
   cursor: pointer;
+  font-family: Montserrat-Bold;
+}
+
+.bg2 .basel:hover {
+  opacity: 0.8px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #415ED8;
+  color: white;
+  border: 1px solid white;
 }
 
 .bg3 {
   margin-bottom: 100px;
-  margin-left: 55px;
+}
+
+.bg3 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg3 .artikel {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  margin-top: 24px;
 }
 
 .bg3 .one {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-right: 20px;
+  border-radius: 3px;
   float: left;
-  width: 30.5%;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .bg3 .one img {
-  width: 349.22px;
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg3 .one h4 {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .bg3 .one p {
-  text-align: justify;
+  margin-left: 20px;
+}
+
+.bg3 .one .seleng {
+  margin-left: 20px;
 }
 
 .bg3 .one:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+}
+
+.bg3 .one:hover h4 {
+  margin-left: 20px;
+}
+
+.bg3 .one:hover p {
+  margin-left: 20px;
+}
+
+.bg3 .one:hover .seleng {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .bg3 .two:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+}
+
+.bg3 .two:hover h4 {
+  margin-left: 20px;
+}
+
+.bg3 .two:hover p {
+  margin-left: 20px;
+}
+
+.bg3 .two:hover .seleng {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .bg3 .three:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+}
+
+.bg3 .three:hover h4 {
+  margin-left: 20px;
+}
+
+.bg3 .three:hover p {
+  margin-left: 20px;
+}
+
+.bg3 .three:hover .seleng {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .bg3 .two {
-  margin-top: 50px;
-  margin-right: 20px;
+  margin-top: 40px;
   float: left;
-  width: 30.5%;
+  margin-right: 20px;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .bg3 .two img {
-  width: 349.22px;
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg3 .two h4 {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .bg3 .two p {
-  text-align: justify;
+  margin-left: 20px;
+}
+
+.bg3 .two .seleng {
+  margin-left: 20px;
 }
 
 .bg3 .three {
   float: left;
-  margin-top: 50px;
-  width: 30.5%;
+  margin-top: 40px;
+  width: 385px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .bg3 .three img {
-  width: 349.22px;
+  width: 385px;
+  border-radius: 3px;
+}
+
+.bg3 .three h4 {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .bg3 .three p {
-  text-align: justify;
+  margin-left: 20px;
 }
 
-.bg3 h3 {
+.bg3 .three .seleng {
+  margin-left: 20px;
+}
+
+.bg3 .h3 {
   font-size: 32px;
-  margin-bottom: 15px;
+  font-family: sf;
 }
 
 .bg3 h4 {
   font-size: 22px;
-  margin-top: 20px;
+  margin-top: -5px;
 }
 
-.bg3 p {
+.bg3 p a {
   font-size: 15px;
   color: #777777;
   line-height: 23px;
@@ -207,12 +357,19 @@ a {
 .bg3 .seleng {
   width: 136.3px;
   height: 37.58px;
-  background: #2680EB;
+  background: #415ED8;
   border-radius: 5px;
-  border: 1px solid #2680EB;
+  border: 1px solid #415ED8;
   color: white;
+  font-family: Montserrat-Bold;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.bg3 .seleng:hover {
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .bg3 .seleng1 {
@@ -220,16 +377,17 @@ a {
   height: 37.58px;
   background: none;
   border-radius: 5px;
-  border: 1px solid #000000;
-  margin-top: 40px;
-  margin-left: 470px;
-  margin-top: 50px;
+  border: 1px solid #415ED8;
+  margin-left: 540px;
+  margin-top: 60px;
   cursor: pointer;
+  color: #415ED8;
+  font-family: Montserrat-Bold;
 }
 
 .bg3 .seleng1:hover {
-  background: #2680EB;
-  border: 1px solid #2680EB;
+  background: #415ED8;
+  border: 1px solid #415ED8;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -239,14 +397,22 @@ a {
   margin-left: 55px;
 }
 
-.bg4 h3 {
+.bg4 .h3 {
   font-size: 32px;
-  margin-bottom: 15px;
+  font-family: sf;
+  margin-left: 0px;
+}
+
+.bg4 .tahu {
+  font-size: 18px;
+  font-family: Montserrat-Regular;
+  margin-left: 0px;
+  margin-top: 24px;
 }
 
 .bg4 .h5 {
   margin-left: 180px;
-  margin-top: -160px;
+  margin-top: -161px;
   font-size: 16px;
 }
 
@@ -278,16 +444,66 @@ a {
   width: 30%;
 }
 
+.bg4 .ov a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.bg4 .ov .dua a {
+  color: grey;
+}
+
+.bg4 .ov img {
+  width: 156px;
+  height: 154px;
+}
+
 .bg4 .tv {
   margin-top: 18px;
   margin-left: 15px;
   float: left;
 }
 
+.bg4 .tv a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.bg4 .tv .dua a {
+  color: grey;
+}
+
+.bg4 .tv .link a {
+  margin-top: -20px;
+  float: left;
+}
+
+.bg4 .tv img {
+  width: 156px;
+  height: 154px;
+}
+
 .bg4 .thv {
   margin-top: 400px;
-  margin-left: -635px;
+  margin-left: -584px;
   float: left;
+}
+
+.bg4 .thv a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.bg4 .thv .dua a {
+  color: grey;
+}
+
+.bg4 .thv img {
+  width: 156px;
+  height: 154px;
 }
 
 .bg4 .link {
@@ -304,8 +520,9 @@ a {
 
 .bg4 .txt {
   margin-left: 721px;
-  margin-top: -55px;
+  margin-top: -93px;
   font-size: 32px;
+  font-family: sf;
 }
 
 .bg4 .left1 {
@@ -317,6 +534,11 @@ a {
   margin-left: 30px;
   margin-top: -202px;
   margin-bottom: 30px;
+}
+
+.bg4 a {
+  text-decoration: none;
+  color: #000;
 }
 
 .bg4 .os {
@@ -390,36 +612,47 @@ a {
   height: 37.58px;
   background: none;
   border-radius: 5px;
-  border: 1px solid #000000;
-  margin-top: 35px !important;
-  margin-left: 490px;
+  border: 1px solid #415ED8;
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 450px;
   cursor: pointer;
   float: left;
+  font-family: Montserrat-Bold;
+  color: #415ED8;
 }
 
 .bg4 .seleng3:hover {
-  background: #2680EB;
-  border: 1px solid #2680EB;
+  background: #415ED8;
+  border: 1px solid #415ED8;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .bg5 {
-  margin-top: 671px !important;
+  margin-top: 749px !important;
   margin-left: 55px;
   margin-bottom: 80px;
 }
 
-.bg5 h3 {
+.bg5 .h3 {
   font-size: 32px;
   margin-bottom: 15px;
+  font-family: sf;
+}
+
+.bg5 .temukan {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  margin-top: 24px;
 }
 
 .bg5 .k1 {
   margin-top: 50px;
   margin-right: 20px;
   float: left;
+  cursor: pointer;
 }
 
 .bg5 .k1:hover {
@@ -434,6 +667,7 @@ a {
   float: left;
   margin-right: 20px;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .bg5 .k2:hover {
@@ -447,6 +681,7 @@ a {
 .bg5 .k3 {
   float: left;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .bg5 .k3:hover {
@@ -461,6 +696,7 @@ a {
   margin-top: 20px;
   margin-right: 20px;
   float: left;
+  cursor: pointer;
 }
 
 .bg5 .k4:hover {
@@ -475,6 +711,7 @@ a {
   float: left;
   margin-right: 20px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .bg5 .k5:hover {
@@ -488,6 +725,7 @@ a {
 .bg5 .k6 {
   float: left;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .bg5 .k6:hover {
@@ -503,7 +741,9 @@ a {
   height: 37.58px;
   background: none;
   border-radius: 5px;
-  border: 1px solid #000000;
+  border: 1px solid #415ED8;
+  color: #415ED8;
+  font-family: Montserrat-Bold;
   margin-top: 590px !important;
   margin-left: -605px;
   cursor: pointer;
@@ -523,21 +763,81 @@ a {
   margin-left: 55px;
 }
 
-.bg6 h3 {
+.bg6 .h3 {
   font-size: 32px;
   margin-bottom: 15px;
+  font-family: sf;
+}
+
+.bg6 .opi {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.bg6 .awal:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bg6 .awal:hover h3 {
+  margin-top: 5px;
+}
+
+.bg6 .tengah:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bg6 .tengah:hover h3 {
+  margin-top: 5px;
+}
+
+.bg6 .akhir:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bg6 .akhir:hover h3 {
+  margin-top: 5px;
+}
+
+.bg6 .akhir1:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bg6 .akhir1:hover h3 {
+  margin-top: 5px;
 }
 
 .bg6 .awal {
   margin-top: 50px;
-  position: absolute;
-}
-
-.bg6 .awal img {
+  width: 48%;
   float: left;
 }
 
+.bg6 .awal img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 6px;
+}
+
 .bg6 .awal h3 {
+  margin-top: 5px;
   float: left;
   width: 60%;
   margin-left: 40px;
@@ -552,6 +852,8 @@ a {
   margin-left: 40px;
   text-align: justify;
   margin-top: 5px;
+  border-bottom: .5px solid #415ED8;
+  padding-bottom: 5px;
 }
 
 .bg6 .awal .sum {
@@ -568,27 +870,31 @@ a {
   width: 136.3px;
   height: 37.58px;
   margin-top: 15px;
-  border: 1px solid #2680EB;
-  background: #2680EB;
+  border: 1px solid #415ED8;
+  background: #415ED8;
   color: white;
+  font-family: Montserrat-Bold;
   border-radius: 5px;
   font-size: 12px;
   cursor: pointer;
 }
 
 .bg6 .tengah {
-  margin-top: 300px;
-  position: absolute;
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 48%;
+  float: left;
 }
 
 .bg6 .tengah img {
   float: left;
+  border-radius: 6px;
 }
 
 .bg6 .tengah h3 {
   float: left;
-  width: 60%;
   margin-left: 40px;
+  margin-top: 5px;
   font-size: 22px;
 }
 
@@ -598,7 +904,7 @@ a {
   width: 60%;
   line-height: 25px;
   margin-left: 40px;
-  text-align: justify;
+  border-bottom: .5px solid #415ED8;
   margin-top: 5px;
 }
 
@@ -616,27 +922,30 @@ a {
   width: 136.3px;
   height: 37.58px;
   margin-top: 15px;
-  border: 1px solid #2680EB;
-  background: #2680EB;
+  border: 1px solid #415ED8;
+  background: #415ED8;
   color: white;
   border-radius: 5px;
   font-size: 12px;
   cursor: pointer;
+  font-family: Montserrat-Bold;
 }
 
 .bg6 .akhir {
-  margin-top: 550px;
-  position: absolute;
+  width: 48%;
+  float: left;
+  margin-top: 20px;
 }
 
 .bg6 .akhir img {
   float: left;
+  border-radius: 6px;
 }
 
 .bg6 .akhir h3 {
   float: left;
-  width: 60%;
   margin-left: 40px;
+  margin-top: 5px;
   font-size: 22px;
 }
 
@@ -646,7 +955,7 @@ a {
   width: 60%;
   line-height: 25px;
   margin-left: 40px;
-  text-align: justify;
+  border-bottom: .5px solid #415ED8;
   margin-top: 5px;
 }
 
@@ -664,33 +973,212 @@ a {
   width: 136.3px;
   height: 37.58px;
   margin-top: 15px;
-  border: 1px solid #2680EB;
-  background: #2680EB;
+  border: 1px solid #415ED8;
+  background: #415ED8;
   color: white;
   border-radius: 5px;
   font-size: 12px;
   cursor: pointer;
+  font-family: Montserrat-Bold;
+}
+
+.bg6 .akhir1 {
+  width: 48%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bg6 .akhir1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg6 .akhir1 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bg6 .akhir1 h3 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bg6 .akhir1 .isi {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.bg6 .akhir1 .sum {
+  float: left;
+  margin-left: 40px;
+  margin-top: 12px;
+  font-size: 13px;
+  width: 60%;
+}
+
+.bg6 .akhir1 .seleng4 {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: Montserrat-Bold;
+}
+
+.bg6 .awal a, .bg6 .tengah a, .bg6 .akhir a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg6 .awal .seleng4:hover, .bg6 .tengah .seleng4:hover, .bg6 .akhir .seleng4:hover {
+  font-family: Montserrat-Bold;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .bg6 .selengka {
-  margin-top: 820px;
+  margin-top: 50px;
   margin-left: 491px !important;
   width: 136.3px;
   height: 37.58px;
   background: none;
   border-radius: 5px;
-  border: 1px solid #000000;
+  border: 1px solid #415ED8;
   margin-left: -605px;
   cursor: pointer;
   float: left;
+  font-family: Montserrat-Bold;
 }
 
 .bg6 .selengka:hover {
-  background: #2680EB;
-  border: 1px solid #2680BE;
+  background: #415ED8;
+  border: 1px solid #415ED8;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.bg65 {
+  background: #A8D8D6;
+  width: 100%;
+  height: 500px;
+  display: none;
+}
+
+.bg7 {
+  margin-top: -50px;
+  margin-bottom: 450px;
+  width: 100%;
+}
+
+.bg7 .h3 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-family: sf;
+}
+
+.bg7 .kepribadian {
+  width: 48%;
+  float: left;
+  border-right: 2px solid #415ED8;
+}
+
+.bg7 .kepribadian img {
+  float: left;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.bg7 .kepribadian .tes {
+  float: left;
+  font-family: sf;
+  font-size: 20px;
+  width: 45%;
+  margin-top: 30px;
+}
+
+.bg7 .kepribadian .mon {
+  margin-top: 65px;
+  width: 98%;
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  line-height: 25px;
+  color: #777777;
+}
+
+.bg7 .kepribadian .btn {
+  width: 133px;
+  height: 37.58px;
+  background: #415ED8;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: Montserrat-Bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.bg7 .kepribadian .btn:hover {
+  opacity: 0.8;
+}
+
+.bg7 .minat {
+  width: 48%;
+  float: left;
+  margin-left: 30px;
+}
+
+.bg7 .minat img {
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.bg7 .minat .tes1 {
+  float: left;
+  font-family: sf;
+  font-size: 20px;
+  width: 45%;
+  margin-top: 30px;
+}
+
+.bg7 .minat .mon1 {
+  margin-top: 65px;
+  width: 98%;
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  line-height: 25px;
+  color: #777777;
+}
+
+.bg7 .minat .btn1 {
+  width: 133px;
+  height: 37.58px;
+  background: #415ED8;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: Montserrat-Bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.bg7 .minat .btn1:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -994,6 +1482,7 @@ a {
     float: left;
   }
   .popup-active {
+    z-index: +10000000;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);

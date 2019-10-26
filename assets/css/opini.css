@@ -8,10 +8,6 @@ html, body {
   background-color: #f8f8f8;
 }
 
-a {
-  display: inline-block;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -21,554 +17,998 @@ a {
   max-width: 1200px;
 }
 
-.bagian1 h2 {
-  font-size: 32px;
-  margin-top: 100px;
-  margin-bottom: 15px;
+.membuat {
+  margin-top: 150px;
+  width: 85%;
+  background-color: white;
 }
 
-.bagian1 #kir {
-  float: left;
-  margin-top: 50px;
+.membuat img {
+  border-radius: 100%;
+  width: 4%;
+  padding: 11px;
 }
 
-.bagian1 #ten {
-  margin-top: 50px !important;
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
+.membuat p {
+  color: gray;
+  font-family: sf;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: -45px;
 }
 
-.bagian1 #kan {
-  float: left;
-  margin-top: 50px !important;
-}
-
-.bagian1 #kan1 {
-  float: left;
-  margin-top: 50px !important;
-  margin-left: 20px;
-}
-
-.bagian1 .ari {
-  width: 326px;
-  height: 45px;
-  font-size: 16px;
-  border-radius: 5px;
-  margin-right: 80px;
+.kirim button {
+  float: right;
+  font-family: Montserrat-Bold;
+  color: white;
+  background-color: #415ED8;
+  width: 15%;
+  height: 65px;
   border: none;
-  float: right;
-  margin-top: 40px;
-  background: white;
-  padding-left: 20px;
+  border-radius: 4px;
+  margin-top: -66px;
 }
 
-.bagian1 #nan {
-  float: right;
-  margin-top: -60px;
-  margin-left: 1120px;
-  height: 45px;
-  cursor: pointer;
+.bagian1 {
+  margin-top: 100px;
 }
 
 .bagian1 a {
+  display: inline-block;
+  margin-top: 30px;
   text-decoration: none;
-  color: #2680EB;
+  margin-left: 20px;
+  color: #415ED8;
 }
 
-.bagian1 h4:hover {
-  border-bottom: 2px solid #2680EB;
-  padding-bottom: 10px;
+.bagian1 a:hover {
+  border-bottom: 2px solid #415ED8;
+  padding-bottom: 4px;
+  -webkit-transition: 0.1	s;
+  transition: 0.1	s;
 }
 
 .bagian2 {
-  margin-bottom: 1100px;
+  margin-bottom: 1500px;
+  margin-top: -50px;
+}
+
+.bagian2 .berita:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian2 .berita:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian2 .berita2:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian2 .berita2:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian2 .berita3:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian2 .berita3:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian2 .berita4:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian2 .berita4:hover h3 {
+  margin-top: 5px;
 }
 
 .bagian2 .berita {
   margin-top: 50px;
-  width: 32%;
+  width: 48%;
   float: left;
-}
-
-.bagian2 .berita h2 {
-  font-size: 22px;
-  margin-top: 15px;
-  line-height: 25px;
 }
 
 .bagian2 .berita img {
-  width: 100%;
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian2 .berita h2 {
+  margin-top: 5px;
+  float: left;
+  width: 60%;
+  margin-left: 40px;
+  font-size: 22px;
 }
 
 .bagian2 .berita p {
+  float: left;
   font-size: 15px;
-  line-height: 23px;
-  color: #777777;
-  text-align: justify;
-  margin-top: 14px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-bottom: .5px solid #415ED8;
+  padding-bottom: 5px;
 }
 
 .bagian2 .berita .basel {
+  float: left;
+  margin-left: 40px;
   width: 136.3px;
   height: 37.58px;
-  background: #2680EB;
-  border: 1px solid #2680EB;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
   color: white;
+  font-family: Montserrat-Bold;
   border-radius: 5px;
   font-size: 12px;
-  margin-top: 14px;
+  cursor: pointer;
 }
 
 .bagian2 .berita2 {
-  margin-top: 50px;
-  width: 32%;
-  float: left;
   margin-left: 20px;
-}
-
-.bagian2 .berita2 h2 {
-  font-size: 22px;
-  margin-top: 15px;
-  line-height: 25px;
+  margin-top: 50px;
+  width: 48%;
+  float: left;
 }
 
 .bagian2 .berita2 img {
-  width: 100%;
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian2 .berita2 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
 }
 
 .bagian2 .berita2 p {
+  float: left;
   font-size: 15px;
-  line-height: 23px;
-  color: #777777;
-  text-align: justify;
-  margin-top: 14px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
 }
 
 .bagian2 .berita2 .basel {
+  float: left;
+  margin-left: 40px;
   width: 136.3px;
   height: 37.58px;
-  background: #2680EB;
-  border: 1px solid #2680EB;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
   color: white;
+  font-family: Montserrat-Bold;
   border-radius: 5px;
   font-size: 12px;
-  margin-top: 14px;
+  cursor: pointer;
 }
 
 .bagian2 .berita3 {
-  margin-top: 50px;
-  width: 32%;
+  margin-top: 20px;
+  width: 48%;
   float: left;
-  margin-left: 20px;
-}
-
-.bagian2 .berita3 h2 {
-  font-size: 22px;
-  margin-top: 15px;
-  line-height: 25px;
 }
 
 .bagian2 .berita3 img {
-  width: 100%;
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian2 .berita3 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
 }
 
 .bagian2 .berita3 p {
+  float: left;
   font-size: 15px;
-  line-height: 23px;
-  color: #777777;
-  text-align: justify;
-  margin-top: 14px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
 }
 
 .bagian2 .berita3 .basel {
+  float: left;
+  margin-left: 40px;
   width: 136.3px;
   height: 37.58px;
-  background: #2680EB;
-  border: 1px solid #2680EB;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
   color: white;
+  font-family: Montserrat-Bold;
   border-radius: 5px;
   font-size: 12px;
-  margin-top: 14px;
+  cursor: pointer;
 }
 
 .bagian2 .berita4 {
-  margin-top: 528px;
-  width: 32%;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 48%;
   float: left;
-  margin-left: -1192px;
-}
-
-.bagian2 .berita4 h2 {
-  font-size: 22px;
-  margin-top: 15px;
-  line-height: 25px;
 }
 
 .bagian2 .berita4 img {
-  width: 100%;
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian2 .berita4 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
 }
 
 .bagian2 .berita4 p {
+  float: left;
   font-size: 15px;
-  line-height: 23px;
-  color: #777777;
-  text-align: justify;
-  margin-top: 14px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
 }
 
 .bagian2 .berita4 .basel {
+  float: left;
+  margin-left: 40px;
   width: 136.3px;
   height: 37.58px;
-  background: #2680EB;
-  border: 1px solid #2680EB;
-  color: white;
-  border-radius: 5px;
-  font-size: 12px;
-  margin-top: 14px;
-}
-
-.bagian2 .berita5 {
-  margin-top: 50px;
-  width: 32%;
-  float: left;
-  margin-left: 400px;
-}
-
-.bagian2 .berita5 h2 {
-  font-size: 22px;
   margin-top: 15px;
-  line-height: 25px;
-}
-
-.bagian2 .berita5 img {
-  width: 100%;
-}
-
-.bagian2 .berita5 p {
-  font-size: 15px;
-  line-height: 23px;
-  color: #777777;
-  text-align: justify;
-  margin-top: 14px;
-}
-
-.bagian2 .berita5 .basel {
-  width: 136.3px;
-  height: 37.58px;
-  background: #2680EB;
-  border: 1px solid #2680EB;
+  border: 1px solid #415ED8;
+  background: #415ED8;
   color: white;
+  font-family: Montserrat-Bold;
   border-radius: 5px;
   font-size: 12px;
-  margin-top: 14px;
+  cursor: pointer;
 }
 
-.bagian2 .berita6 {
-  margin-top: 50px;
-  width: 32%;
+.bagian2 .berita4 .profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+.bagian3 {
+  margin-top: 20px;
+}
+
+.bagian3 .berita:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian3 .berita:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian3 .berita2:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian3 .berita2:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian3 .berita3:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian3 .berita3:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian3 .berita4:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian3 .berita4:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian3 .berita {
+  margin-top: 20px;
+  width: 48%;
   float: left;
+}
+
+.bagian3 .berita img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian3 .berita h2 {
+  margin-top: 5px;
+  float: left;
+  width: 60%;
+  margin-left: 40px;
+  font-size: 22px;
+}
+
+.bagian3 .berita p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-bottom: .5px solid #415ED8;
+  padding-bottom: 5px;
+}
+
+.bagian3 .berita .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian3 .berita2 {
   margin-left: 20px;
-}
-
-.bagian2 .berita6 h2 {
-  font-size: 22px;
-  margin-top: 15px;
-  line-height: 25px;
-}
-
-.bagian2 .berita6 img {
-  width: 100%;
-}
-
-.bagian2 .berita6 p {
-  font-size: 15px;
-  line-height: 23px;
-  color: #777777;
-  text-align: justify;
-  margin-top: 14px;
-}
-
-.bagian2 .berita6 .basel {
-  width: 136.3px;
-  height: 37.58px;
-  background: #2680EB;
-  border: 1px solid #2680EB;
-  color: white;
-  border-radius: 5px;
-  font-size: 12px;
-  margin-top: 14px;
-}
-
-.basel {
-  cursor: pointer;
-}
-
-#nav-open {
-  display: inline;
-  margin-top: 50px;
-  width: 30px;
-  height: 25px;
-  margin-left: 590px;
-  position: relative;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
+  margin-top: 20px;
+  width: 48%;
   float: left;
 }
 
-#nav-open p {
-  margin-top: 10px;
-  margin-left: -5px;
+.bagian3 .berita2 img {
+  float: left;
+  border-radius: 6px;
 }
 
-#nav-open span {
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  background: #2680EB;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+.bagian3 .berita2 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
 }
 
-#nav-open span:nth-child(1) {
-  top: 0px;
-  -webkit-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  transform: rotate(60deg);
-  -webkit-transition: 1s;
-  transition: 1s;
-  margin-bottom: -100px;
+.bagian3 .berita2 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
 }
 
-#nav-open span:nth-child(2) {
-  top: 0px;
-  margin-left: 15px;
-  -webkit-transform: rotate(-60deg);
-  -ms-transform: rotate(-60deg);
-  transform: rotate(-60deg);
-  -webkit-transition: 1s;
-  transition: 1s;
-  margin-bottom: -100px;
+.bagian3 .berita2 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
-#nav-open.open span:nth-child(1) {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+.bagian3 .berita3 {
+  margin-top: 20px;
+  width: 48%;
+  float: left;
 }
 
-#nav-open.open span:nth-child(2) {
-  background-repeat: red;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+.bagian3 .berita3 img {
+  float: left;
+  border-radius: 6px;
 }
 
-.menu-hide1 {
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  -webkit-transition: 1s;
-  transition: 1s;
+.bagian3 .berita3 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
 }
 
-.menu-hide1-active {
-  height: 1000px;
-  margin-left: 0px;
-  margin-top: -200px !important;
-  -webkit-transition: 1s;
-  transition: 1s;
-  margin-bottom: 100px;
+.bagian3 .berita3 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
 }
 
-@media screen and (max-width: 1024px) {
-  .container {
-    max-width: 1000px;
-  }
-  .bagian1 {
-    margin-left: 35px;
-  }
-  .bagian1 .ari {
-    float: left;
-    margin-top: -40px;
-    margin-left: 540px;
-  }
-  .bagian1 #nan {
-    position: absolute;
-    margin-top: -36px;
-    float: left;
-    margin-left: 400px;
-  }
-  .bagian2 {
-    margin-left: 35px;
-  }
-  .bagian2 .berita {
-    width: 47%;
-  }
-  .bagian2 .berita2 {
-    width: 47%;
-  }
-  .bagian2 .berita3 {
-    display: none;
-  }
-  .bagian2 .berita4 {
-    width: 47%;
-    margin-left: 0px;
-    margin-top: 50px;
-  }
-  .bagian2 .berita5 {
-    width: 47%;
-    margin-left: 20px;
-    margin-top: 50px;
-  }
-  .bagian2 .berita6 {
-    display: none;
-  }
-  .bagian2 #nav-open svg {
-    margin-left: -125px;
-    margin-top: -15px;
-  }
-  .menu-hide1-active {
-    height: 1100px;
-  }
+.bagian3 .berita3 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 700px;
-  }
-  .bagian1 {
-    margin-left: 35px;
-  }
-  .bagian1 .ari {
-    float: left;
-    margin-top: 20px;
-    margin-left: 420px;
-    width: 30%;
-  }
-  .bagian1 #nan {
-    position: absolute;
-    margin-top: 24px;
-    float: left;
-    margin-left: 175px;
-  }
-  .bagian2 {
-    margin-left: 35px;
-  }
-  .bagian2 .berita {
-    width: 47%;
-  }
-  .bagian2 .berita2 {
-    width: 47%;
-  }
-  .bagian2 .berita3 {
-    display: none;
-  }
-  .bagian2 .berita4 {
-    width: 47%;
-    margin-left: -710px;
-    margin-top: 503px;
-  }
-  .bagian2 .berita5 {
-    width: 47%;
-    margin-left: 20px;
-    margin-top: 50px;
-  }
-  .bagian2 .berita6 {
-    display: none;
-  }
-  .bagian2 #nav-open svg {
-    margin-left: -248px;
-    margin-top: -15px;
-  }
-  .menu-hide1 .berita4 {
-    margin-left: -710px;
-    margin-top: 500px;
-  }
-  .menu-hide1-active {
-    height: 950px;
-  }
+.bagian3 .berita4 {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 48%;
+  float: left;
 }
 
-@media screen and (max-width: 360px) {
-  .container {
-    max-width: 300px;
-  }
-  .bagian1 {
-    margin-left: 35px;
-  }
-  .bagian1 h2 {
-    font-size: 22px;
-  }
-  .bagian1 h4 {
-    font-size: 15px;
-    margin-left: 10px;
-  }
-  .bagian1 .ari {
-    float: left;
-    margin-top: 20px;
-    margin-left: 0px;
-    width: 68.5%;
-  }
-  .bagian1 #kan1 {
-    margin-left: 10px;
-    margin-top: 20px !important;
-  }
-  .bagian1 #kan {
-    margin-left: -5px;
-  }
-  .bagian1 #nan {
-    position: absolute;
-    margin-top: 24px;
-    float: left;
-    margin-left: 75px;
-  }
-  .bagian2 {
-    margin-left: 35px;
-  }
-  .bagian2 .berita {
-    width: 90%;
-  }
-  .bagian2 .berita2 {
-    width: 90%;
-    margin-left: 0px;
-  }
-  .bagian2 .berita3 {
-    display: none;
-  }
-  .bagian2 .berita4 {
-    width: 90%;
-    margin-left: 0px;
-    margin-top: 50px;
-  }
-  .bagian2 .berita5 {
-    width: 90%;
-    margin-left: 0px;
-    margin-top: 50px;
-  }
-  .bagian2 .berita6 {
-    display: none;
-  }
-  .bagian2 #nav-open svg {
-    margin-left: -450px;
-    margin-top: -15px;
-  }
-  .menu-hide1 .berita4 {
-    margin-left: -710px;
-    margin-top: 500px;
-  }
-  .menu-hide1-active {
-    height: 1380px;
-  }
+.bagian3 .berita4 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian3 .berita4 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bagian3 .berita4 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
+}
+
+.bagian3 .berita4 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian3 .berita4 .profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+.bagian4 {
+  margin-top: 20px;
+}
+
+.bagian4 .berita:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian4 .berita:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian4 .berita2:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian4 .berita2:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian4 .berita3:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian4 .berita3:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian4 .berita4:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian4 .berita4:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian4 .berita {
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian4 .berita img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian4 .berita h2 {
+  margin-top: 5px;
+  float: left;
+  width: 60%;
+  margin-left: 40px;
+  font-size: 22px;
+}
+
+.bagian4 .berita p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-bottom: .5px solid #415ED8;
+  padding-bottom: 5px;
+}
+
+.bagian4 .berita .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian4 .berita2 {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian4 .berita2 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian4 .berita2 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bagian4 .berita2 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
+}
+
+.bagian4 .berita2 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian4 .berita3 {
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian4 .berita3 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian4 .berita3 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bagian4 .berita3 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
+}
+
+.bagian4 .berita3 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian4 .berita4 {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian4 .berita4 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian4 .berita4 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bagian4 .berita4 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
+}
+
+.bagian4 .berita4 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian4 .berita4 .profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+.bagian5 {
+  margin-top: 20px;
+}
+
+.bagian5 .berita:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian5 .berita:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian5 .berita2:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian5 .berita2:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian5 .berita3:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian5 .berita3:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian5 .berita4:hover {
+  -webkit-box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bagian5 .berita4:hover h3 {
+  margin-top: 5px;
+}
+
+.bagian5 .berita {
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian5 .berita img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian5 .berita h2 {
+  margin-top: 5px;
+  float: left;
+  width: 60%;
+  margin-left: 40px;
+  font-size: 22px;
+}
+
+.bagian5 .berita p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-bottom: .5px solid #415ED8;
+  padding-bottom: 5px;
+}
+
+.bagian5 .berita .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian5 .berita2 {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian5 .berita2 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian5 .berita2 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bagian5 .berita2 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
+}
+
+.bagian5 .berita2 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian5 .berita3 {
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian5 .berita3 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian5 .berita3 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bagian5 .berita3 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
+}
+
+.bagian5 .berita3 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian5 .berita4 {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 48%;
+  float: left;
+}
+
+.bagian5 .berita4 img {
+  float: left;
+  border-radius: 6px;
+}
+
+.bagian5 .berita4 h2 {
+  float: left;
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.bagian5 .berita4 p {
+  float: left;
+  font-size: 15px;
+  width: 60%;
+  line-height: 25px;
+  margin-left: 40px;
+  border-bottom: .5px solid #415ED8;
+  margin-top: 5px;
+}
+
+.bagian5 .berita4 .basel {
+  float: left;
+  margin-left: 40px;
+  width: 136.3px;
+  height: 37.58px;
+  margin-top: 15px;
+  border: 1px solid #415ED8;
+  background: #415ED8;
+  color: white;
+  font-family: Montserrat-Bold;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bagian5 .berita4 .profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
 }
